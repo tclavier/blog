@@ -1,0 +1,19 @@
+Quelques astuces ssh
+== Une prison sftp ==
+/etc/ssh/sshd_config
+<pre>
+Subsystem       sftp    internal-sftp
+ 
+Match Group ftpusers
+         ChrootDirectory /home/%u
+         ForceCommand internal-sftp
+         AllowTCPForwarding no
+         X11Forwarding no
+</pre>
+
+ajouter un user 
+ adduser foo
+ adduser foo ftpusers
+ chown root:root ~foo
+ mkdir ~foo/ftp
+ chown foo:foo ~foo/ftp

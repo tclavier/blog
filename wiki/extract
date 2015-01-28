@@ -1,0 +1,6 @@
+#!/bin/bash
+for page in $(echo "SELECT page_title FROM revision,page,text WHERE revision.rev_id=page.page_latest AND text.old_id=revision.rev_text_id" | mysql --skip-column-names -u root tcweb_wiki)
+do
+	date=$(echo "SELECT page_touched FROM revision,page,text WHERE revision.rev_id=page.page_latest AND text.old_id=revision.rev_text_id and page_title='$page' order by 1 desc limit 1" | mysql --skip-column-names -u root tcweb_wiki)
+	echo "SELECT old_text FROM revision,page,text WHERE revision.rev_id=page.page_latest AND text.old_id=revision.rev_text_id and page_title='$page'" | mysql --skip-column-names -u root tcweb_wiki > "${page}_${date}.wiki"
+done

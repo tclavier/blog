@@ -1,0 +1,10 @@
+L'objectif c'est de faire un thème pas trop moche pour ce site. Comme je suis pour le partage, je vous livre mon thème mediawiki. 
+
+Retrouver le dans le [http://tcweb.org/websvn/listing.php?repname=mediawikiTcWeb&path=%2F&sc=0 dépos subversion]
+
+Pour modifier le menu, il faut éditer la page [[MediaWiki:Sidebar]]
+
+Pour obtenir la dernière version depuis le dépos subversion : 
+  svn co https://svn.tcweb.org/mediawikiTcWeb/trunk/ mediawikiTcWeb
+
+[[Catégorie:Projets]]

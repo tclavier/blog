@@ -1,0 +1,14 @@
+Title:Dia
+Date:2005-07-11
+Tags: logiciels linux,logiciels windows,  mediawiki
+
+Dia est un outils très puissant capable de faire rapidement des shémas
+complexe. C'est une sorte de "Visio" Libre. Un des gros avantage de Dia,
+c'est que les fichiers de description de schémas sont facilement
+exploitable par des générateurs de code. Il est par exemple possible de
+générer du code Java à partir des diagrames UML :-)
+
+-   site web : <http://www.lysator.liu.se/~alla/dia/>
+-   site de Dia win32 : <http://hans.breuer.org/dia/default.htm>
+-   un installeur windows : <http://dia-installer.sourceforge.net/>
+

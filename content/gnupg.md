@@ -1,0 +1,13 @@
+Title:GnuPG
+Date:2007-05-16
+Tags:  mediawiki
+
+### GNU Privacy Guard
+
+GnuPG est un logiciel gratuit destiné à remplacer PGP, c'est un moteur
+cryptographique qui pourra être utiliser pour faire du
+[Chiffrage](chiffrage.hml "wikilink") de données.
+
+-   site web : <http://www.gnupg.org/>
+-   [Mémo GnuPG](memo-gnupg.hml "wikilink")
+

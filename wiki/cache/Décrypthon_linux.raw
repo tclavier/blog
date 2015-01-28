@@ -1,0 +1,16 @@
+Le téléthon arrivant ce Week-end, je me suis de nouveau intéressé au [http://www.decrypthon.fr/ décrypthon] quel ne fut pas ma surprise en lisant que cette année in existait un client Linux. Je télécharge la bête et là seconde bonne nouvelle c'est [http://boinc.berkeley.edu/ boinc], le client de calcul distribué de l'université de Berkley pour entre autre le projets [http://setiathome.berkeley.edu/ Seti@Home]. Voici donc comment j'ai rejoins le projet avec ma debian : 
+
+Installation de boinc
+ apt-get install boinc-manager boinc-client
+
+Inscrition au projet : 
+ http://www.worldcommunitygrid.org/reg/viewRegister.do
+
+rejoindre l'équipe Francophone :
+ http://www.worldcommunitygrid.org/team/viewTeamInfo.do?teamId=0MV6V88PP1
+
+Commencer le calcul : 
+ boincmgr
+
+L'assistant d'ajout de projet se lance dans URL du projet entrez : www.worldcommunitygrid.org
+puis rentrez votre nom de membre et le mot de passe. Et voilà les calculs commencent.

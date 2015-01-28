@@ -1,0 +1,134 @@
+Même si je n'utilises windows qu'au bureau, je penses que la meilleur façon de découvrir les logiciels libres, c'est de progréssivement les utiliser à la place des logiciels propriétaires que l'on avait l'habitude d'utiliser. De plus, la diverté des logiciels contribue à fréner l'expansions des virus. Je vous proposes donc ici mon alternative à de nombreux logiciels propriétaires.
+
+== Gestion d'archives ==
+* [[7zip]] Outils de gestion d'archive gérant un grand nombre de format. Sous licence LGPL
+
+== Multimédia ==
+
+=== Graphisme ===
+* [[The gimp]] L'outils de manipulation d'image GNU. Outils très puissant sous GPL du même niveau que le célèbre Photoshop
+* [[Inkscape]] Le logiciel libre de référence pour faire du dessin vectoriel
+* [[Cornice]] Un visionneur d'image simple et libre
+* [[Blender]] Un très bon logiciel sous licence GPL pour faire des animations en 3D.
+* [[SmartisionScreenCopy]] Un outils de capture d'écran sous licence GPL
+* [[Dia]] Réalisaton de schémas, graph, diagrammes. C'est l'équivalent GPL de "Visio".
+* [[ImageMagick]] Une suite d'outils très puissante de manipulation d'image en ligne de commande avec pour ceux qui veulent une interface graphique sommaire, mais efficace. Sous licence GPL
+
+=== Musique ===
+* [[Zinf]] Lecteur audio, reconnait de nombreux formats comme l'ogg ou le mp3
+* [[CDex]] outils d'extraction audio, permet par exemple d'enregistrer un CD en ogg
+
+=== voix sur IP ===
+* [[Ekiga]] la meilleur alternative à skype.
+* [[OpenH323]] implémentation libre du protocole utilisé par netmeeting avec de nombreux outils comme openPhone.
+
+=== Vidéo ===
+* [[videolan]] : à la fois un très bon lecteur vidéo et un serveur capable de diffuser sur un réseau local.
+
+== Personalisation du bureau ==
+* [[winpager]] un pager .... pour avoir tout plein de bureaux virtuels ... comme sous Linux
+* [[gPhotoShow]] un diaporama en économiseur d'écran
+
+== Unix sous windows ==
+* [[Cygwin]] : portage de tout un environement GNU sous windows (bash, gcc, X.org, autoconf, automake, mutt, procmail, fetchmail, etc ...)
+
+== Internet ==
+=== Client FTP ===
+* [[filezilla]] : le meilleur client ftp graphique sous windows.
+* [[ncftp]] : un exellent client ftp en ligne de commande. Très pratique pour automatiser des téléchargements
+=== Navigateur ===
+* [[Firefox]] : le navigateur de la fondation [[Mozilla]]
+* [[SeaMonkey]] : L'ancienne suite logiciel de la fondation [[Mozilla]].
+
+=== Lecteur de news ===
+* [[SeaMonkey]] : l'ancienne suite de la fondation [[Mozilla]]
+* [[Xnews]] : lecteur Usenet sous licence GPL.
+* [[thunderbird]] : le lecteur de mail/news de la fondation [[Mozilla]]
+
+=== Lecteur de mail ===
+* [[SeaMonkey]] : l'ancienne suite de la fondation [[Mozilla]]
+* [[Sylpheed]] : un très bon lecteur de mail en GPL.
+* [[thunderbird]] : le lecteur de mail/news de la fondation [[Mozilla]]
+
+=== Messagerie instantanée ===
+* [[Jabber]] : Le protocole libre avec ses très nombreux clients libre. à comparer avec le très populaire MSN messenger.
+* [[XChat]] : un très bon client IRC aux très nombreuses fonctionnalités. Libre et gratuit.
+* [[chatzilla]] : le client IRC de [[Mozilla]]
+* [[Psi]] : un excélent client [[jabber]]
+* [[Gaim]] un client multiprotocoles
+
+=== Clients Peer-to-peer ===
+* [[Gnutella]] : le protocole libre avec de nombreux clients libre.
+* [[mlDonkey]] client libre pour les protocoles :
+* [[eMule]] client libre pour les protocoles :
+=== Réseaux privés virtuels (vpn) ===
+* [[Tinc]] : à la fois un client et un serveur VPN léger et très puissant.
+
+== Bureautique ==
+* [[OpenOffice.org]] : Suite bureautique libre
+* [[abiword]] : Un logiciel de traitement de texte libre
+
+== Anti virus ==
+* [[OpenAntiVirus]] : un antivirus libre.
+* [[ClamWin]] : un antivirus libre basé sur le maintenant célèbre Clam Antivirus (clamav)
+
+== SSH ==
+=== Terminal ===
+* [[PuTTY]] : Un ensemble de petits programme ssh. Une suite très complette et très estétique, en plus, elle est libre.
+* [[Corkscrew]] : faire passer du ssh à travers un proxy https.
+=== SFTP ===
+* [[filezilla]] : le meilleur client sftp/ftp graphique sous windows.
+* [[winscp]] : très bon client sftp et scp pour windows.
+
+== Editeurs ==
+* [[Vim]] : le seul le vrai :-))
+* [[Emacs]] : le seul le vrai :-)) (lui aussi)
+* [[SciTE]] : un éditeur à la sauce Ultra Edit en libre. Basé sur les composants Scintilla
+* [[jEdit]] : Un éditeur libre (GPL) écrit en Java
+
+== Cryptographie ==
+* [[gnuPG]] : la version libre de PGP
+* [[winpt]] : Une interface graphique pour gnuPG
+
+== Jeux ==
+* [[WinPenguins]] : des petits pingouins sur tout votre bureau
+* [[GCompris]] : logiciel éducatif qui propose des activités variées aux enfants de 2 à 10 ans
+
+== Développement / Projet ==
+=== SQL ===
+* [[agata report]] : le Crystal Reports libre.
+* [[iReport]] : Un requetteur décisionnel, qui fait tout plein de beaux documents.
+* [[TOra]] : un client Oracle graphique à la sauce Toad.
+
+=== Modélisation ===
+* [[DBDesigner4]] modélisation merise, à comparer à Oracle's Designer©, IBM's Rational Rose©, Computer Associates's ERwin© and theKompany's DataArchitect©
+* [[Nextobjects]] modélisation merise type AMC*Designer
+* [[AnalyseSI]] modélisation merise (MCD, MLD, SQL) en Java
+* [[ArgoUML]] modélisation UML
+
+=== Versioning ===
+* [[TortoiseCVS]] : extension au shell de windows pour faire du CVS.
+* [[TortoiseSVN]] : extension au shell de windows pour SubVersion.
+
+=== Divers ===
+* [[AutoIt]] : langage de script pour automatiser des taches utilisateurs (automatisation de test par exemple) : http://www.hiddensoft.com/autoit3/
+
+=== Web ===
+* [[nvu]] version stand-alone de [[Mozilla Composer]] plus légère et plus rapide.
+* [[Mozilla Composer]] un éditeur WYSIWYG à la sauce Frontpage ou Dreamweaver.
+
+=== Suivit ===
+* [[Planner]] un MS project libre.
+
+== Divers ==
+* [[httptunnel]] : faire passer autre chose que de l'http dans un proxy http.
+* [[vnc]] : prendre le controle d'une machine à distance
+* [[tightVNC]] : prendre le controle d'une machine à distance. C'est un projet dérivé de VNC. L'accent est mis sur la diminutions des transferts réseaux.
+
+== Outils d'administration système ==
+* [[ARI]] : administrer une machine windows à distance. Attention, pas libre !
+
+== Sites de référencement de logiciels libre ==
+* Framasoft : http://www.framasoft.org
+
+[[Catégorie: windows]]

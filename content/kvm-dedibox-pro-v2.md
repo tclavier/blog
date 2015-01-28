@@ -1,0 +1,192 @@
+Title:Kvm dedibox pro-v2
+Date:2010-08-09
+Tags:  mediawiki
+
+Test en avant première d'une dedibox pro v2
+
+Hyperviseur
+===========
+
+Debian Sid
+----------
+
+Installer une debian lenny (debian 5.0) avec juste un / de 3G, l'espace
+restant sera utilisé par le LVM. Ne pas oublier de changer les mots de
+passes.
+
+migrer en squeeze
+
+`vi /etc/apt/sources.list`\
+`:%s/lenny/squeeze/g`
+
+Une petite mise à jour, pour la forme
+
+`apt-get update`\
+`apt-get dist-upgrade`
+
+Installer kvm [libvirt](http://wiki.libvirt.org/) et le noyau standard
+
+`apt-get install linux-image-2.6-686-bigmem kvm libvirt-bin virtinst`\
+`apt-get remove linux-image-2.6.32-bpo.3-686-bigmem`\
+`upgrade-from-grub-legacy`\
+`update-grub2`
+
+reboot ... pour voir que le module kvm est bien chargé.
+
+`# lsmod | grep kvm`\
+`kvm_intel              32494  0 `\
+`kvm                   182321  1 kvm_intel`
+
+Une machine invité
+------------------
+
+machine que l'on va appeler mapnik
+
+Création des lv :
+
+`lvcreate -L 200G -n mapnik-root vg00 `\
+`lvcreate -L 4G -n mapnik-swap vg00`
+
+Formatage et installation dans le lv
+
+`mkreiserfs /dev/vg00/mapnik-root`\
+`blkid -s UUID -o value /dev/vg00/mapnik-root`\
+`mount /dev/vg00/mapnik-root /mnt/`\
+`debootstrap lenny /mnt`
+
+Configuration de la vm
+
+`chroot /mnt`\
+`apt-get update`\
+`apt-get dist-upgrade`\
+`apt-get install locales reiserfsprogs`\
+`dpkg-reconfigure locales`
+
+vi /etc/fstab
+
+`UUID=...  /   reiserfs    defaults,errors=remount-ro 0       1`
+
+vi /etc/hosts
+
+    127.0.0.1 localhost 
+    127.0.1.1 mapnik mapnik.lan mapnik.local
+
+    # The following lines are desirable for IPv6 capable hosts
+    ::1 ip6-localhost ip6-loopback
+    fe00::0 ip6-localnet
+    ff00::0 ip6-mcastprefix
+    ff02::1 ip6-allnodes
+    ff02::2 ip6-allrouters
+    ff02::3 ip6-allhosts
+
+vi /etc/hostname
+
+`mapnik`
+
+vi /etc/kernel-img.conf
+
+`do_initrd = Yes`
+
+Installer un noyau et grub
+
+`mkdir -p /boot/grub`\
+`apt-get install linux-image-amd64 grub `\
+
+Boot de la VM
+
+`kvm -nographic -serial pty -drive file=lenny-base.raw,if=virtio,index=0,boot=on -daemonize`
+
+Quelques liens
+--------------
+
+<http://dsa.debian.org/howto/install-kvm/>
+
+Old
+===
+
+Installer les paquets Xen :
+
+`apt-get install xen-linux-system-2.6.26-1-xen-686 xen-tools bridge-utils xen-hypervisor-i386-pae`
+
+Un petit fdisk pour créer un sda2 et un sdb2 sur les 2 disques (type fd)
+
+`fdisk /dev/sda`\
+`fdisk /dev/sdb`
+
+et voilà, il est temps de rebooter. Une fois le reboot effectif, vous
+pouvez vérifier que vous utilisez bien le noyau xen :
+
+` uname -a `\
+` Linux mauricette 2.6.26-1-xen-686 #1 SMP Thu Oct 9 19:59:46 UTC 2008 i686 GNU/Linux`
+
+Il faut aussi créer le /dev/md1
+
+` mdadm --create /dev/md1 --level=1 --raid-devices=2 /dev/sda2 /dev/sdb2`
+
+Pour jouer avec les lvm et reiserfs, il faut les installer :
+
+`apt-get install lvm2 reiserfsprogs`
+
+Il est possible de créer un VG (vg00 par exemple) avec tout le disque
+restant.
+
+`pvcreate /dev/md1`\
+`vgcreate vg00 /dev/md1`
+
+Du routage en ipv4
+------------------
+
+modifier le fichier /etc/xen/xend-config.sxp
+
+`(network-script network-route)`\
+`(vif-script     vif-route)`
+
+et ajouter ces 2 lignes dans le fichier /etc/sysctl.conf
+
+`net.ipv4.ip_forward=1`\
+`net.ipv4.conf.all.proxy_arp=1`\
+`net.ipv4.conf.default.proxy_arp=1`
+
+DomU
+====
+
+Je vous invites à lire [Xen dedibox2](xen-dedibox2.hml "wikilink") pour la
+création des domU
+
+Routage encore
+--------------
+
+config dans le domU (vi /etc/network/interfaces)
+
+`auto eth0`\
+`iface eth0 inet static `\
+`  address mon_adresse_ip_redondante`\
+`  netmask 255.255.255.255`\
+`  post-up /sbin/route add -net ADDR_IP_MACHINE_HOTE netmask 255.255.255.255 eth0`\
+`  post-up /sbin/route add default gw ADDR_IP_MACHINE_HOTE`
+
+Quelques petites erreurs
+------------------------
+
+voici 2 petits soucis rencontrés
+
+### ssh domU ... stdin: is not a tty
+
+ou ssh domU ... "PTY allocation request failed on channel 0"
+
+dans les 2 cas un petit chroot dans le disque du domU et
+
+`apt-get install udev`
+
+### boot qui bloque
+
+un petit chroot dans le disque du domU et vi /etc/fstab ... les
+xen-tools ont ajouté une mauvaise option de montage pour un / en
+reiserfs changer la ligne :
+
+`/dev/sda2 / reiserfs errors=remount-ro 0 1`
+
+par
+
+`/dev/sda2 / reiserfs defaults 0 1`
+

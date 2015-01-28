@@ -1,0 +1,62 @@
+#!/bin/bash
+API=http://tcweb.org/mediawiki/api.php
+DIR=$(dirname $0)
+
+[ -d cache ] || mkdir cache
+
+slug() {
+  input=$1
+  echo "$input" | iconv --from-code utf-8 --to-code us-ascii//TRANSLIT | tr '[:upper:]' '[:lower:]'| sed -e 's/[^a-z0-9]/ /g' -e 's/[ ]\+/ /g' -e 's/^ //' -e 's/ $//' -e 's/ /-/g'
+}
+
+for page in $(cat liste_pages)
+do
+  SLUG=$(slug $page)
+  echo -n "$page -> $SLUG "
+
+  DST=$DIR/../content/$SLUG.md
+  TITLE=$(wget -O - -q "$API?action=query&prop=revisions&titles=$page&format=json" | jq -r '.query.pages[].title' )
+  DATE=$(wget -O - -q "$API?action=query&prop=revisions&titles=$page&format=json" | jq -r '.query.pages[].revisions[].timestamp')
+  DATE=$(date -d $DATE +%Y-%m-%d)
+  CACHE=$DIR/cache/${page}.raw
+  [ -f $CACHE ] || wget -q -O $CACHE "http://tcweb.org/mediawiki/index.php?title=$page&action=raw" 
+ 
+  REDIRECT=$(grep -c '#REDIRECT' $CACHE)
+  if [ $REDIRECT -eq 0 ]
+  then
+    TAGS=$(grep "Catégorie" $CACHE | sed -e 's/Catégorie//g' -e 's/\]\]/,/g' -e 's/\[\[://g' | tr "\n" " ")
+    TAGS="$TAGS mediawiki"
+
+    echo "Title:$TITLE" > $DST
+    echo "Date:$DATE" >> $DST
+    echo "Tags: $TAGS" >> $DST
+    echo "" >> $DST
+    cat $CACHE | \
+      sed -e "s/\[\[Catégorie[^]]*\]\]//g" | \
+      pandoc -f mediawiki -t markdown >> $DST
+    echo "OK"
+  else 
+    echo "."
+  fi
+done
+
+#Title: My super title
+#Date: 2010-12-03 10:20
+#Modified: 2010-12-05 19:30
+#Category: Python
+#Tags: pelican, publishing
+#Slug: my-super-post
+#Authors: Alexis Metaireau, Conan Doyle
+#Summary: Short version for index and feeds
+
+# Correction des liens
+for page in $(cat liste_pages)
+do
+  SLUG=$(slug $page)
+  REGEX=$(echo $page | tr "'" "." | tr '_' ' ')
+  echo $SLUG
+  for file in $DIR/../content/*.md
+  do
+    sed -e "s/($REGEX \"wikilink\")/($SLUG.hml \"wikilink\")/g" -i $file
+  done
+done

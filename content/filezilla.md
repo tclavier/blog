@@ -1,0 +1,24 @@
+Title:Filezilla
+Date:2005-08-07
+Tags: logiciels windows,  mediawiki
+
+Le meilleur client FTP sous windows . Il support entre autre
+
+-   la reprise de téléchargements (si le serveur le supporte)
+-   les commandes personalisés
+-   la gestion des sites dans des répertoires
+-   le maintient de connection ouverte (chez free par exemple)
+-   la détection de "timeout"
+-   le passage de Firewall
+-   le passage de proxy SOCKS4/5 et HTTP1.1
+-   les connections sécurisés SSL
+-   le SFTP (ftp sécurisé par ssh)
+-   les queues de téléchargement
+-   le "Drag&Drop"
+-   il est traduit dans de nombreuses langues
+-   l'authentification GSS avec Kerberos
+
+-   site web : <http://filezilla.sourceforge.net/>
+-   téléchargement :
+    <http://sourceforge.net/project/showfiles.php?group_id=21558>
+

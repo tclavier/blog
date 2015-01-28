@@ -1,0 +1,80 @@
+= Offre Logiciels libres Système =
+== L’Offre Logiciels Libres pour … ==
+* Mettre en place un Système d'Information (SI)
+* Développer des applications (Offre Logiciels Libres applicative)
+* Superviser les points vitaux du SI
+* Assurer le recouvrement des données en cas de perte
+* Fiabiliser et Sécuriser l'ensemble du SI
+
+== Mettre en place un Système d'Information (1/2) ==
+* '''Système d'exploitation''' 
+Pilier du SI, les logiciels libres offrent des systèmes d'exploitation fiables, stables et performants.
+* '''Communiquer''' 
+** Messagerie électronique : Accroître la productivité d'une entreprise c'est avant tout bien communiquer 
+** Augmenter la réactivité de vos équipes en vous équipant d'un serveur de messagerie instantané 
+** Protéger votre accès à Internet, limiter l'accès aux seuls sites référencés avec un serveur mandataire (proxy) 
+
+== Mettre en place un Système d'Information (2/2) ==
+* '''Gestion du temps'''
+S'organiser c'est aussi partager un Agenda, pouvoir le synchroniser avec son PDA 
+* '''Partage de données'''
+Échanger ou mettre à disposition les documents et présentations qui régissent les projets d'une entreprise 
+* '''Poste de travail''' 
+Les divers acteurs du logiciel libre permettent aujourd'hui de concevoir des postes de travail aussi simples d'utilisation et fonctionnels que les plus connus du marché 
+* '''ERP''' 
+Fédérez les différents secteurs de votre entreprise autour du même logiciel avec un progiciel de gestion intégrée (ERP)
+
+== Superviser les points vitaux ==
+*Surveiller l'activité et anticiper les anomalies en supervisant : 
+** le réseau 
+** les serveurs au niveau matériel 
+** les systèmes d'exploitations 
+** les applications 
+*Déterminer les impacts métiers d'une anomalie (QoS) 
+
+== Fiabiliser et Sécuriser l'ensemble ==
+* Etablir une politique réseau fiable et sécurisé 
+* Protéger le système d'information avec un part-feu
+* Détecter les tentatives d'intrusions 
+* Protéger les serveurs et les zones d'échanges des virus 
+* Etablir une communication sécurisée au sein du SI et ce même entre des sites distants 
+
+== Maintenance et périnisation du SI ==
+* Maintenir le SI à jour (installation de patch, de nouvelles versions) sans impact pour les utilisateurs
+* Répondre aux anomalies de fonctionnement du système 
+* Analyser et comprendre les incidents rapidement et efficacement 
+* Sauvegarder le SI pour péréniser les données tout en garantissant une restauration rapide et efficace. 
+
+
+= Offre Logiciels libres Applicative =
+
+== Web application ==
+
+* Serveur d'application : réalisez des applications puissantes, facilements et instantanéments accessibles sans les contraintes de mise à jour des applicatifs sur les postes clients. [ zope, php, [http://jakarta.apache.org/tomcat tomcat], jboss, [http://struts.apache.org/ truts], [http://jonas.objectweb.org jonas] ]
+
+* Serveur de contenu : publiez facilement et rapidement vos contenues professionnels sans perdre de temps sur la mise en page grâce à l'automatisation de celle-ci. ( plone, apache, [http://www.spip.net spip] )
+
+== Développer des applications (J2EE, PHP, autres idées) ==
+Développer des applications c'est :
+* avoir un environment de développement
+* garantir la qualité avec un environement de qualification
+* gérer l'historique des documents
+
+== environnement de développement ==
+
+L'environement de développement c'est d'une part avoir un poste de travail avec tous les outils indispensables, mais aussi la mise en place de toute l'infrastructure côté server.
+
+* garantir l'historique des documents, gérer la configuration, le versioning [ subversion, cvs ]
+
+== Poste de travail ==
+Groupeware, agenda partagé, serveur de mail, IDE à la pointe de la technologie (eclipse), puissants outils de gestion de version. Que des éléments déjà abordé :-)
+
+== Infrastructure ==
+Mise en place d'un environnement de développement/qualification cohérent avec l'architecture cible et le process de développement/qualité du client.
+
+== réalisation du développement ==
+
+cf la capacité d'Adventec à réaliser du developpement en régie/forfait à l'agence/chez le client.
+
+
+[[Catégorie:Pole Logiciels Libres]]

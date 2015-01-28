@@ -1,0 +1,28 @@
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_qu'un_comportement_indÃ©cent_?' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_qu'un_comportement_indÃ©cent_?'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'orange' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'orange'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ennuie_au_travail_?' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ennuie_au_travail_?'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_qu'un_logiciel_libre_?' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_qu'un_logiciel_libre_?'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_que_la_sÃ©curitÃ©_informatique_?' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'est-ce_que_la_sÃ©curitÃ©_informatique_?'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'incident_du_28-02-2007' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'incident_du_28-02-2007'' at line 1
+./extract: ligne5: Mediawiki/mediawiki/index.php_20071223151718.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Mediawiki/index.php_20080810135814.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Mediawiki/index.php/mediawiki/index.php_20070928134757.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Mediawiki/index.php/mediawiki/mediawiki/index.php_20071004122209.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Mediawiki/mediawiki/mediawiki/index.php_20080103191201.wiki: Aucun fichier ou dossier de ce type
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hÃ©bergement' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hÃ©bergement'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'organes' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'organes'' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'un_noyau_xen_sous_debian' order by 1 desc limit 1' at line 1
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'un_noyau_xen_sous_debian'' at line 1
+./extract: ligne5: Mediawiki/mediawiki/mediawiki/mediawiki/mediawiki/index.php_20080408122232.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Accueil/_20080716144353.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Dia/mediawiki/index.php_20080718122913.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Dia/mediawiki/mediawiki/index.php_20080810140234.wiki: Aucun fichier ou dossier de ce type
+./extract: ligne5: Myflamingo/_20080810140236.wiki: Aucun fichier ou dossier de ce type

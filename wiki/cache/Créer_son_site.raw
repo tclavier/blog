@@ -1,0 +1,12 @@
+[[Catégorie:documentation TcWeb]]
+
+Si vous avez un compte sur tcweb.org, vous avez aussi droit à un site perso accessible aussi bien sur le réseau citoyen que sur le net.
+
+Pour l'activer, il vous suffit de créer le répertoire public_html dans votre répertoire home. Par exemple, vous pouvez tapez ces ligne dans une console ssh :
+
+<pre>
+cd
+mkdir public_html
+</pre>
+
+Votre site sera alors disponible à l'adresse : http://www.tcweb.org/~login/ sur internet et à l'adresse http://10.59.12.11/~login/ sur le réseau citoyen de lille.
