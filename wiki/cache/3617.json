@@ -1,0 +1,1 @@
+{"query":{"pages":{"3617":{"pageid":3617,"ns":0,"title":"Raid logiciel","revisions":[{"revid":11152,"parentid":0,"user":"Tom","timestamp":"2008-12-19T23:09:35Z","comment":"Nouvelle page : Quelques petites proc\u00e9dures courante avec mdadm sous linux  == Changement de disque ==  sfdisk -d \/dev\/sda | sfdisk \/dev\/sdb  mdadm \/dev\/md0 --add \/dev\/sdb1"}]}}}}

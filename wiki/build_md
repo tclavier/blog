@@ -1,37 +1,59 @@
 #!/bin/bash
 API=http://tcweb.org/mediawiki/api.php
+INDEX=http://tcweb.org/mediawiki/index.php
 DIR=$(dirname $0)
+CACHE=$DIR/cache
+CONTENT=$DIR/../content
 
-[ -d cache ] || mkdir cache
+[ -d $CACHE ] || mkdir $CACHE
+[ -d $CONTENT ] || mkdir $CONTENT
 
 slug() {
   input=$1
   echo "$input" | iconv --from-code utf-8 --to-code us-ascii//TRANSLIT | tr '[:upper:]' '[:lower:]'| sed -e 's/[^a-z0-9]/ /g' -e 's/[ ]\+/ /g' -e 's/^ //' -e 's/ $//' -e 's/ /-/g'
 }
 
-for page in $(cat liste_pages)
-do
-  SLUG=$(slug $page)
-  echo -n "$page -> $SLUG "
+LST_PAGES=$CACHE/liste_pages
+[ -f $LST_PAGES ] || wget -q -O $LST_PAGES "$API?action=query&list=allpages&format=json&aplimit=500"
 
-  DST=$DIR/../content/$SLUG.md
-  TITLE=$(wget -O - -q "$API?action=query&prop=revisions&titles=$page&format=json" | jq -r '.query.pages[].title' )
-  DATE=$(wget -O - -q "$API?action=query&prop=revisions&titles=$page&format=json" | jq -r '.query.pages[].revisions[].timestamp')
+rm -f $CACHE/links.sed
+
+for page in $(cat $LST_PAGES | jq -r '.query.allpages[].pageid')
+do
+  echo -n "$page : "
+  META=$CACHE/${page}.json
+  [ -f $META ] || wget -q -O $META "$API?action=query&prop=revisions&pageids=$page&format=json"
+  TITLE=$(cat $META | jq -r '.query.pages[].title' )
+  DATE=$(cat $META | jq -r '.query.pages[].revisions[].timestamp')
   DATE=$(date -d $DATE +%Y-%m-%d)
-  CACHE=$DIR/cache/${page}.raw
-  [ -f $CACHE ] || wget -q -O $CACHE "http://tcweb.org/mediawiki/index.php?title=$page&action=raw" 
+
+  RAW=$CACHE/${page}.raw
+  [ -f $RAW ] || wget -q -O $RAW "$INDEX?title=$TITLE&action=raw" 
+
+  SLUG=$(slug "$TITLE")
+  echo -n "$TITLE -> $SLUG "
+  DST=$CONTENT/$SLUG.md
+  REGEX=$(echo $TITLE| sed -e 's?/?\\/?g')
+  echo "s/$REGEX \"wikilink\"/$SLUG/g" >> $CACHE/links.sed
  
-  REDIRECT=$(grep -c '#REDIRECT' $CACHE)
-  if [ $REDIRECT -eq 0 ]
+  EXCLUDE=0
+  REDIRECT=$(grep -c '#REDIRECT' $RAW)
+  [ $REDIRECT -gt 0 ] && EXCLUDE=1
+  WORDS=$(cat $RAW| wc -c)
+  [ $WORDS -eq 0 ] && EXCLUDE=1
+
+  if [ $EXCLUDE -eq 0 ]
   then
-    TAGS=$(grep "Catégorie" $CACHE | sed -e 's/Catégorie//g' -e 's/\]\]/,/g' -e 's/\[\[://g' | tr "\n" " ")
+    TAGS=$(grep "Catégorie" $RAW | sed -e 's/Catégorie//g' -e 's/\]\]/,/g' -e 's/\[\[://g' | tr "\n" " ")
     TAGS="$TAGS mediawiki"
 
-    echo "Title:$TITLE" > $DST
-    echo "Date:$DATE" >> $DST
-    echo "Tags: $TAGS" >> $DST
-    echo "" >> $DST
-    cat $CACHE | \
+    echo "+++"                > $DST
+    echo "date = \"$DATE\""   >> $DST
+    echo "draft = false"      >> $DST
+    echo "title = \"$TITLE\"" >> $DST
+    echo "+++"                >> $DST
+    echo ""                   >> $DST
+    cat $RAW | \
       sed -e "s/\[\[Catégorie[^]]*\]\]//g" | \
       pandoc -f mediawiki -t markdown >> $DST
     echo "OK"
@@ -40,23 +62,18 @@ do
   fi
 done
 
-#Title: My super title
-#Date: 2010-12-03 10:20
-#Modified: 2010-12-05 19:30
-#Category: Python
-#Tags: pelican, publishing
-#Slug: my-super-post
-#Authors: Alexis Metaireau, Conan Doyle
-#Summary: Short version for index and feeds
+#+++
+#date = "2015-01-28T15:42:50+01:00"
+#draft = true
+#title = "about"
+#tags = ["x", "y"]
+#
+#+++
+
 
 # Correction des liens
-for page in $(cat liste_pages)
+for file in $CONTENT/*.md
 do
-  SLUG=$(slug $page)
-  REGEX=$(echo $page | tr "'" "." | tr '_' ' ')
-  echo $SLUG
-  for file in $DIR/../content/*.md
-  do
-    sed -e "s/($REGEX \"wikilink\")/($SLUG.hml \"wikilink\")/g" -i $file
-  done
+  echo $file
+  sed -f $CACHE/links.sed -i $file
 done
