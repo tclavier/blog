@@ -1,5 +1,5 @@
 *~
 *.pyc
 .target
-pelican.pid
 hugo
+*.swp

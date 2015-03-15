@@ -1,0 +1,8 @@
+baseurl = "http://tcweb.org"
+languageCode = "fr-fr"
+title = "TcWeb"
+theme = "tinyce"
+
+[taxonomies]
+tag = "tags"
+category = "categories"

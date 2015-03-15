@@ -3,10 +3,10 @@ API=http://tcweb.org/mediawiki/api.php
 INDEX=http://tcweb.org/mediawiki/index.php
 DIR=$(dirname $0)
 CACHE=$DIR/cache
-CONTENT=$DIR/../content
+CONTENT=$DIR/../content/wiki
 
-[ -d $CACHE ] || mkdir $CACHE
-[ -d $CONTENT ] || mkdir $CONTENT
+[ -d $CACHE ] || mkdir -p $CACHE
+[ -d $CONTENT ] || mkdir -p $CONTENT
 
 slug() {
   input=$1
@@ -15,6 +15,9 @@ slug() {
 
 LST_PAGES=$CACHE/liste_pages
 [ -f $LST_PAGES ] || wget -q -O $LST_PAGES "$API?action=query&list=allpages&format=json&aplimit=500"
+
+#LST_IMG=$CACHE/liste_img
+#[ -f $LST_IMG ] || wget -q -O $LST_IMG "$API?action=query&list=allimages&format=json&aplimit=500"
 
 rm -f $CACHE/links.sed
 
@@ -33,31 +36,41 @@ do
   SLUG=$(slug "$TITLE")
   echo -n "$TITLE -> $SLUG "
   DST=$CONTENT/$SLUG.md
-  REGEX=$(echo $TITLE| sed -e 's?/?\\/?g')
-  echo "s/$REGEX \"wikilink\"/$SLUG/g" >> $CACHE/links.sed
+  REGEX=$(echo $TITLE| sed -e 's?/?\\/?g' -e 's/"/\\"/g')
+  echo "s/$REGEX \"wikilink\"/\/$SLUG/g" >> $CACHE/links.sed
  
   EXCLUDE=0
-  REDIRECT=$(grep -c '#REDIRECT' $RAW)
+  REDIRECT=$(grep -ic '#REDIRECT' $RAW)
   [ $REDIRECT -gt 0 ] && EXCLUDE=1
   WORDS=$(cat $RAW| wc -c)
   [ $WORDS -eq 0 ] && EXCLUDE=1
+  FIND=$(egrep -c "^$SLUG$" $DIR/excludes.lst)
+  [ $FIND -gt 0 ] && EXCLUDE=1
 
   if [ $EXCLUDE -eq 0 ]
   then
-    TAGS=$(grep "Catégorie" $RAW | sed -e 's/Catégorie//g' -e 's/\]\]/,/g' -e 's/\[\[://g' | tr "\n" " ")
-    TAGS="$TAGS mediawiki"
+    TAGS=$(cat $RAW| tr '[' "\n" | tr ']' "\n" | grep "Catégorie" | sed -e 's/.*://' -e 's/|.*//g'| tr '[:upper:]' '[:lower:]'| sed -e 's/^/"/' -e 's/$/"/' | tr "\n" ",")
+    TAGS="$TAGS \"mediawiki\""
 
-    echo "+++"                > $DST
-    echo "date = \"$DATE\""   >> $DST
-    echo "draft = false"      >> $DST
-    echo "title = \"$TITLE\"" >> $DST
-    echo "+++"                >> $DST
-    echo ""                   >> $DST
+    ICON=$(shuf -n 1 $DIR/icons.lst)
+    COLOR=$(shuf -n 1 $DIR/colors.lst)
+
+    echo "+++"                      > $DST
+    echo "date = \"$DATE\""         >> $DST
+    echo "draft = false"            >> $DST
+    echo "title = \"$TITLE\""       >> $DST
+    echo "color = \"$COLOR\""       >> $DST
+    echo "icon = \"$ICON\""         >> $DST
+    echo "Tags = [$TAGS]"           >> $DST
+    echo "description = \"$TITLE\"" >> $DST
+    echo "+++"                      >> $DST
+    echo ""                         >> $DST
     cat $RAW | \
-      sed -e "s/\[\[Catégorie[^]]*\]\]//g" | \
+      sed -e 's/\[\[Catégorie[^]]*\]\]//g' -e 's/:Catégorie://g' | \
       pandoc -f mediawiki -t markdown >> $DST
     echo "OK"
   else 
+    rm -rf $DST
     echo "."
   fi
 done
