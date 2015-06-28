@@ -37,7 +37,7 @@ do
   echo -n "$TITLE -> $SLUG "
   DST=$CONTENT/$SLUG.md
   REGEX=$(echo $TITLE| sed -e 's?/?\\/?g' -e 's/"/\\"/g')
-  echo "s/$REGEX \"wikilink\"/\/$SLUG/g" >> $CACHE/links.sed
+  echo "s/$REGEX \"wikilink\"/\/wiki\/$SLUG/g" >> $CACHE/links.sed
  
   EXCLUDE=0
   REDIRECT=$(grep -ic '#REDIRECT' $RAW)
@@ -83,10 +83,22 @@ done
 #
 #+++
 
+echo "s?/wiki/xen-dedibox2?/wiki/xen-dedibox-v3?g" >> $CACHE/links.sed
 
 # Correction des liens
 for file in $CONTENT/*.md
 do
   echo $file
   sed -f $CACHE/links.sed -i $file
+done
+
+echo "s?^\`\\([^\`]*\\)\`\$?    \1?g"      > $CACHE/pandoc.sed
+echo "s?^\`\\([^\`]*\\)\`\\\\\$?    \1?g" >> $CACHE/pandoc.sed
+echo "s?^\\\\\$?    ?g"                   >> $CACHE/pandoc.sed
+
+# Correction des liens
+for file in $CONTENT/*.md
+do
+  echo $file
+  sed -f $CACHE/pandoc.sed -i $file
 done
