@@ -4,7 +4,8 @@
   <div id="content-container">
     <div class="posts">
       <!-- Iterate over the pages -->
-      {{ range first 10 .Data.Pages }}
+      {{ $paginator := .Data.Paginator }}
+      {{range .Paginator.Pages }}
         <div class="post-preview">
           <span class="post-symbol {{ .Params.color }}">
             <i class="symbol fa fa-{{ .Params.icon }}"></i>
@@ -15,7 +16,7 @@
               <a href="{{ .Site.BaseUrl }}{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
 
-            <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+            <span class="post-date">{{ .Date.Format "3 Janvier 2006" }}</span>
 
             <p>{{ .Description }}</p>
           </div>
