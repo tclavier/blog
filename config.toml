@@ -1,8 +1,7 @@
 baseurl = "http://tcweb.org"
 languageCode = "fr-fr"
 title = "TcWeb"
-theme = "tinyce"
+description = "Le blog de Thomas Clavier"
+theme = "tcweb"
 
-[taxonomies]
-tag = "tags"
-category = "categories"
+Paginate = 10
