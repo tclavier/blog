@@ -1,4 +1,4 @@
-baseurl = "http://tcweb.org"
+baseurl = "http://blog.tcweb.org"
 languageCode = "fr-fr"
 title = "TcWeb"
 description = "Le blog de Thomas Clavier"
