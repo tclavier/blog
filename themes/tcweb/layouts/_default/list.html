@@ -13,7 +13,7 @@
 
           <div class="post-content">
             <h1 class="post-title">
-              <a href="{{ .Site.BaseUrl }}{{ .RelPermalink }}">{{ .Title }}</a>
+              <a href="{{ .Site.BaseURL }}{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
 
             <span class="post-date">{{ .Date.Format "3 Janvier 2006" }}</span>
@@ -25,11 +25,11 @@
     </div>
     <nav class="pagination" role="navigation">
       {{if .Paginator.HasPrev}}
-        <a class="newer-posts" href="{{ .Paginator.Prev.Url }}">&larr;</a>
+        <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr;</a>
       {{end}}
         <span class="page-number"> {{ .Paginator.PageNumber }} / {{.Paginator.TotalPages}}</span>
       {{if .Paginator.HasNext}}
-        <a class="older-posts" href="{{ .Paginator.Next.Url }}">&rarr;</a>
+        <a class="older-posts" href="{{ .Paginator.Next.URL }}">&rarr;</a>
       {{end}}
     </nav>
   </div>
