@@ -2,8 +2,8 @@
 date = "2011-11-14"
 draft = false
 title = "Aide Mailman jdarc.fr"
-color = "amber"
-icon = "viacoin"
+color = "cyan"
+icon = "caret-left"
 Tags = [ "mediawiki"]
 description = "Aide Mailman jdarc.fr"
 +++

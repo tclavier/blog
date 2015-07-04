@@ -2,8 +2,8 @@
 date = "2011-04-07"
 draft = false
 title = "Validier un fichier de mails"
-color = "amber"
-icon = "tree"
+color = "purple"
+icon = "sort-up"
 Tags = [ "mediawiki"]
 description = "Validier un fichier de mails"
 +++

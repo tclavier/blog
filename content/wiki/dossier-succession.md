@@ -2,8 +2,8 @@
 date = "2006-11-04"
 draft = false
 title = "Dossier succession"
-color = "orange"
-icon = "send-o"
+color = "light-green"
+icon = "unlock-alt"
 Tags = ["projets", "mediawiki"]
 description = "Dossier succession"
 +++

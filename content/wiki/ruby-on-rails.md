@@ -2,8 +2,8 @@
 date = "2011-03-28"
 draft = false
 title = "Ruby on Rails"
-color = "red"
-icon = "plane"
+color = "green"
+icon = "sort-down"
 Tags = [ "mediawiki"]
 description = "Ruby on Rails"
 +++

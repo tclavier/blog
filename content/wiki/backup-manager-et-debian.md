@@ -2,8 +2,8 @@
 date = "2011-06-10"
 draft = false
 title = "Backup-manager et debian"
-color = "brown"
-icon = "lightbulb-o"
+color = "grey"
+icon = "chevron-circle-down"
 Tags = [ "mediawiki"]
 description = "Backup-manager et debian"
 +++

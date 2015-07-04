@@ -2,8 +2,8 @@
 date = "2011-06-09"
 draft = false
 title = "Postgres"
-color = "green"
-icon = "fast-forward"
+color = "purple"
+icon = "shopping-cart"
 Tags = [ "mediawiki"]
 description = "Postgres"
 +++

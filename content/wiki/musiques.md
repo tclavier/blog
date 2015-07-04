@@ -2,8 +2,8 @@
 date = "2008-12-09"
 draft = false
 title = "Musiques"
-color = "orange"
-icon = "scissors"
+color = "yellow"
+icon = "bug"
 Tags = [ "mediawiki"]
 description = "Musiques"
 +++

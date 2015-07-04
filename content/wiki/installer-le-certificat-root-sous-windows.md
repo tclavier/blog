@@ -2,8 +2,8 @@
 date = "2007-07-20"
 draft = false
 title = "Installer le certificat root sous windows"
-color = "teal"
-icon = "arrow-right"
+color = "yellow"
+icon = "caret-right"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Installer le certificat root sous windows"
 +++

@@ -2,8 +2,8 @@
 date = "2009-02-18"
 draft = false
 title = "Scrum"
-color = "grey"
-icon = "ban"
+color = "brown"
+icon = "header"
 Tags = ["projets", "mediawiki"]
 description = "Scrum"
 +++

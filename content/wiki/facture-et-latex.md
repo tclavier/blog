@@ -2,8 +2,8 @@
 date = "2011-04-11"
 draft = false
 title = "Facture et LaTeX"
-color = "deep-orange"
-icon = "credit-card"
+color = "grey"
+icon = "moon-o"
 Tags = [ "mediawiki"]
 description = "Facture et LaTeX"
 +++

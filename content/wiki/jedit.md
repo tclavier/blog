@@ -2,8 +2,8 @@
 date = "2007-05-06"
 draft = false
 title = "JEdit"
-color = "cyan"
-icon = "fighter-jet"
+color = "light-green"
+icon = "star-o"
 Tags = [ "mediawiki"]
 description = "JEdit"
 +++

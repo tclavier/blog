@@ -2,8 +2,8 @@
 date = "2011-06-17"
 draft = false
 title = "Puppet"
-color = "deep-purple"
-icon = "building"
+color = "yellow"
+icon = "joomla"
 Tags = [ "mediawiki"]
 description = "Puppet"
 +++

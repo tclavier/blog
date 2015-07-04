@@ -2,8 +2,8 @@
 date = "2006-08-23"
 draft = false
 title = "Etude du wrt54g"
-color = "purple"
-icon = "star-half"
+color = "light-green"
+icon = "file-excel-o"
 Tags = ["projets","lille sans fil", "mediawiki"]
 description = "Etude du wrt54g"
 +++

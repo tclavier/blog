@@ -2,8 +2,8 @@
 date = "2010-03-13"
 draft = false
 title = "Facebook et XMPP"
-color = "brown"
-icon = "external-link"
+color = "green"
+icon = "wheelchair"
 Tags = [ "mediawiki"]
 description = "Facebook et XMPP"
 +++

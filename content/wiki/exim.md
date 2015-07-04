@@ -2,8 +2,8 @@
 date = "2011-10-10"
 draft = false
 title = "Exim"
-color = "deep-orange"
-icon = "angle-down"
+color = "grey"
+icon = "calculator"
 Tags = [ "mediawiki"]
 description = "Exim"
 +++

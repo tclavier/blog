@@ -2,8 +2,8 @@
 date = "2013-08-23"
 draft = false
 title = "Astuces git"
-color = "red"
-icon = "dashboard"
+color = "amber"
+icon = "inr"
 Tags = [ "mediawiki"]
 description = "Astuces git"
 +++

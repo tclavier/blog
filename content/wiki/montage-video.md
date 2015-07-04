@@ -2,8 +2,8 @@
 date = "2010-05-21"
 draft = false
 title = "Montage vidéo"
-color = "light-blue"
-icon = "cube"
+color = "indigo"
+icon = "pie-chart"
 Tags = ["linux", "mediawiki"]
 description = "Montage vidéo"
 +++

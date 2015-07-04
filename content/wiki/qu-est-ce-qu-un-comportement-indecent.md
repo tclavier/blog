@@ -2,8 +2,8 @@
 date = "2006-08-23"
 draft = false
 title = "Qu'est-ce qu'un comportement indécent ?"
-color = "deep-purple"
-icon = "dollar"
+color = "grey"
+icon = "bug"
 Tags = ["odyssée", "mediawiki"]
 description = "Qu'est-ce qu'un comportement indécent ?"
 +++

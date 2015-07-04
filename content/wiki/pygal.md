@@ -2,8 +2,8 @@
 date = "2006-11-03"
 draft = false
 title = "Pygal"
-color = "amber"
-icon = "flag-o"
+color = "orange"
+icon = "search-minus"
 Tags = ["projets", "mediawiki"]
 description = "Pygal"
 +++

@@ -2,8 +2,8 @@
 date = "2007-04-10"
 draft = false
 title = "Nfs AIX"
-color = "cyan"
-icon = "book"
+color = "brown"
+icon = "exchange"
 Tags = [ "mediawiki"]
 description = "Nfs AIX"
 +++

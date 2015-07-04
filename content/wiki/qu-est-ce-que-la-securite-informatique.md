@@ -2,8 +2,8 @@
 date = "2008-06-21"
 draft = false
 title = "Qu'est-ce que la sécurité informatique ?"
-color = "red"
-icon = "flag-checkered"
+color = "teal"
+icon = "arrows"
 Tags = ["odyssée", "mediawiki"]
 description = "Qu'est-ce que la sécurité informatique ?"
 +++

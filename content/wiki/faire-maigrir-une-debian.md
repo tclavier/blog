@@ -2,8 +2,8 @@
 date = "2006-11-29"
 draft = false
 title = "Faire maigrir une debian"
-color = "red"
-icon = "question-circle"
+color = "orange"
+icon = "building-o"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Faire maigrir une debian"
 +++

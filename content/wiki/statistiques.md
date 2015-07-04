@@ -2,8 +2,8 @@
 date = "2012-04-29"
 draft = false
 title = "Statistiques"
-color = "pink"
-icon = "comments"
+color = "yellow"
+icon = "heart-o"
 Tags = [ "mediawiki"]
 description = "Statistiques"
 +++

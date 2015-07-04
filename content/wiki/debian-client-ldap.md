@@ -2,8 +2,8 @@
 date = "2009-06-23"
 draft = false
 title = "Debian client LDAP"
-color = "cyan"
-icon = "upload"
+color = "pink"
+icon = "dribbble"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Debian client LDAP"
 +++

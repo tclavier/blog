@@ -2,8 +2,8 @@
 date = "2011-10-18"
 draft = false
 title = "Astuces Mysql"
-color = "indigo"
-icon = "exclamation-circle"
+color = "deep-purple"
+icon = "level-down"
 Tags = [ "mediawiki"]
 description = "Astuces Mysql"
 +++

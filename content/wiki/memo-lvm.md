@@ -2,8 +2,8 @@
 date = "2009-09-14"
 draft = false
 title = "Mémo lvm"
-color = "teal"
-icon = "user-times"
+color = "orange"
+icon = "file-image-o"
 Tags = [ "mediawiki"]
 description = "Mémo lvm"
 +++

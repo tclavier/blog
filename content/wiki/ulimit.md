@@ -2,8 +2,8 @@
 date = "2009-10-12"
 draft = false
 title = "Ulimit"
-color = "deep-orange"
-icon = "pencil"
+color = "light-blue"
+icon = "road"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Ulimit"
 +++

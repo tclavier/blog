@@ -2,8 +2,8 @@
 date = "2010-06-11"
 draft = false
 title = "Offres d'hébergement"
-color = "purple"
-icon = "tty"
+color = "light-green"
+icon = "glass"
 Tags = [ "mediawiki"]
 description = "Offres d'hébergement"
 +++

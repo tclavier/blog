@@ -2,8 +2,8 @@
 date = "2009-10-14"
 draft = false
 title = "Ouate de cellulose"
-color = "green"
-icon = "stumbleupon"
+color = "cyan"
+icon = "futbol-o"
 Tags = [ "mediawiki"]
 description = "Ouate de cellulose"
 +++

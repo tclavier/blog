@@ -2,8 +2,8 @@
 date = "2007-02-02"
 draft = false
 title = "Qu'est-ce qu'un logiciel libre ?"
-color = "blue"
-icon = "bug"
+color = "deep-orange"
+icon = "file-powerpoint-o"
 Tags = ["odyssée", "mediawiki"]
 description = "Qu'est-ce qu'un logiciel libre ?"
 +++

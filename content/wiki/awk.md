@@ -2,8 +2,8 @@
 date = "2011-03-18"
 draft = false
 title = "Awk"
-color = "deep-orange"
-icon = "quote-right"
+color = "teal"
+icon = "sort-asc"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Awk"
 +++

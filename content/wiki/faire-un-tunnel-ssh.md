@@ -2,8 +2,8 @@
 date = "2006-09-25"
 draft = false
 title = "Faire un tunnel ssh"
-color = "indigo"
-icon = "thumbs-down"
+color = "cyan"
+icon = "question-circle"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Faire un tunnel ssh"
 +++

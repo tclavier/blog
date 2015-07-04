@@ -2,8 +2,8 @@
 date = "2013-06-13"
 draft = false
 title = "Tnef"
-color = "grey"
-icon = "rss"
+color = "cyan"
+icon = "save"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Tnef"
 +++

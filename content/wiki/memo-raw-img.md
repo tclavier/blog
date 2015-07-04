@@ -2,8 +2,8 @@
 date = "2011-11-14"
 draft = false
 title = "Mémo raw img"
-color = "purple"
-icon = "cab"
+color = "blue"
+icon = "soundcloud"
 Tags = [ "mediawiki"]
 description = "Mémo raw img"
 +++

@@ -2,8 +2,8 @@
 date = "2006-09-21"
 draft = false
 title = "Baptême de céleste"
-color = "lime"
-icon = "signal"
+color = "deep-orange"
+icon = "euro"
 Tags = [ "mediawiki"]
 description = "Baptême de céleste"
 +++

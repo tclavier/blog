@@ -2,8 +2,8 @@
 date = "2005-07-09"
 draft = false
 title = "Des photos en vidéo"
-color = "cyan"
-icon = "underline"
+color = "indigo"
+icon = "gbp"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Des photos en vidéo"
 +++

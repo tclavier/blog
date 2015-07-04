@@ -2,8 +2,8 @@
 date = "2010-02-24"
 draft = false
 title = "Astuces divers"
-color = "red"
-icon = "institution"
+color = "indigo"
+icon = "italic"
 Tags = [ "mediawiki"]
 description = "Astuces divers"
 +++

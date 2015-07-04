@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "Liens TcWeb"
-color = "grey"
-icon = "rebel"
+color = "orange"
+icon = "tumblr"
 Tags = [ "mediawiki"]
 description = "Liens TcWeb"
 +++

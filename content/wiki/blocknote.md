@@ -3,7 +3,7 @@ date = "2007-06-08"
 draft = false
 title = "Blocknote"
 color = "deep-orange"
-icon = "weibo"
+icon = "heartbeat"
 Tags = [ "mediawiki"]
 description = "Blocknote"
 +++

@@ -2,8 +2,8 @@
 date = "2006-06-28"
 draft = false
 title = "Trouver la machine depuis le login"
-color = "light-blue"
-icon = "ship"
+color = "orange"
+icon = "database"
 Tags = ["windows","trucs et astuces", "mediawiki"]
 description = "Trouver la machine depuis le login"
 +++

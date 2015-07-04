@@ -2,8 +2,8 @@
 date = "2007-07-03"
 draft = false
 title = "DBDesigner4"
-color = "cyan"
-icon = "circle-thin"
+color = "indigo"
+icon = "text-width"
 Tags = [ "mediawiki"]
 description = "DBDesigner4"
 +++

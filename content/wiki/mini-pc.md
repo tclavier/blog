@@ -2,8 +2,8 @@
 date = "2005-12-06"
 draft = false
 title = "Mini pc"
-color = "indigo"
-icon = "whatsapp"
+color = "lime"
+icon = "angle-double-left"
 Tags = [ "mediawiki"]
 description = "Mini pc"
 +++

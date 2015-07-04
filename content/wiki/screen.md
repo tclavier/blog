@@ -2,8 +2,8 @@
 date = "2014-01-14"
 draft = false
 title = "Screen"
-color = "light-green"
-icon = "chevron-left"
+color = "amber"
+icon = "forward"
 Tags = [ "mediawiki"]
 description = "Screen"
 +++

@@ -2,8 +2,8 @@
 date = "2006-08-07"
 draft = false
 title = "Mirroir Ubuntu"
-color = "cyan"
-icon = "file-text-o"
+color = "amber"
+icon = "paste"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Mirroir Ubuntu"
 +++

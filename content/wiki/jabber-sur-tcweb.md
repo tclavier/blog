@@ -2,8 +2,8 @@
 date = "2011-09-07"
 draft = false
 title = "Jabber sur TcWeb"
-color = "yellow"
-icon = "at"
+color = "green"
+icon = "mail-reply-all"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Jabber sur TcWeb"
 +++

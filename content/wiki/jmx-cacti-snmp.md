@@ -2,8 +2,8 @@
 date = "2009-05-05"
 draft = false
 title = "JMX Cacti snmp"
-color = "deep-purple"
-icon = "arrow-circle-o-up"
+color = "indigo"
+icon = "rouble"
 Tags = [ "mediawiki"]
 description = "JMX Cacti snmp"
 +++

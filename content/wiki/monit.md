@@ -2,8 +2,8 @@
 date = "2011-04-27"
 draft = false
 title = "Monit"
-color = "orange"
-icon = "delicious"
+color = "red"
+icon = "recycle"
 Tags = [ "mediawiki"]
 description = "Monit"
 +++

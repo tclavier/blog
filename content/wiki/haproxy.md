@@ -2,8 +2,8 @@
 date = "2013-01-03"
 draft = false
 title = "Haproxy"
-color = "orange"
-icon = "fast-forward"
+color = "light-blue"
+icon = "arrows"
 Tags = [ "mediawiki"]
 description = "Haproxy"
 +++

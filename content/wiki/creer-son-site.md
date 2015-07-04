@@ -3,7 +3,7 @@ date = "2005-07-08"
 draft = false
 title = "Créer son site"
 color = "brown"
-icon = "mars-stroke-h"
+icon = "gbp"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Créer son site"
 +++

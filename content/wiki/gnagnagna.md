@@ -3,7 +3,7 @@ date = "2005-11-04"
 draft = false
 title = "Gnagnagna"
 color = "red"
-icon = "bars"
+icon = "signal"
 Tags = ["inclassable", "mediawiki"]
 description = "Gnagnagna"
 +++

@@ -2,8 +2,8 @@
 date = "2011-06-22"
 draft = false
 title = "Lxc kimsufi"
-color = "brown"
-icon = "fast-forward"
+color = "red"
+icon = "unlock"
 Tags = [ "mediawiki"]
 description = "Lxc kimsufi"
 +++

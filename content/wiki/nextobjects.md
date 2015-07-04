@@ -2,8 +2,8 @@
 date = "2007-05-08"
 draft = false
 title = "Nextobjects"
-color = "yellow"
-icon = "arrows-v"
+color = "grey"
+icon = "deviantart"
 Tags = [ "mediawiki"]
 description = "Nextobjects"
 +++

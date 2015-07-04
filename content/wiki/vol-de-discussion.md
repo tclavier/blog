@@ -2,8 +2,8 @@
 date = "2010-12-02"
 draft = false
 title = "Vol de discussion"
-color = "red"
-icon = "child"
+color = "brown"
+icon = "sort-amount-desc"
 Tags = ["inclassable", "mediawiki"]
 description = "Vol de discussion"
 +++

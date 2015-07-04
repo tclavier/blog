@@ -2,8 +2,8 @@
 date = "2009-01-05"
 draft = false
 title = "Déménagement Roubaix"
-color = "light-green"
-icon = "flag-checkered"
+color = "cyan"
+icon = "transgender-alt"
 Tags = [ "mediawiki"]
 description = "Déménagement Roubaix"
 +++

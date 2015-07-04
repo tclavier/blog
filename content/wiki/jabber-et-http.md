@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "Jabber et HTTP"
-color = "orange"
-icon = "institution"
+color = "light-green"
+icon = "flickr"
 Tags = [ "mediawiki"]
 description = "Jabber et HTTP"
 +++
