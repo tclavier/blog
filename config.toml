@@ -3,5 +3,6 @@ languageCode = "fr-fr"
 title = "TcWeb"
 description = "Le blog de Thomas Clavier"
 theme = "tcweb"
+DisqusShortname="blogtcweb"
 
 Paginate = 10

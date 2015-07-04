@@ -8,21 +8,25 @@
     <p class="description">{{ .Description }}</p>
   </section>
 
-  <div id="content-container">
-    <div class="post">
-      <h1>{{ .Title }}</h1>
-      <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-      <p class="post-content">{{ .Content }}</p>
-    </div>
-    {{ if .Params.tags }}
-      <div>
-        {{ range .Params.tags }}
-        <a class="waves-effect waves-light btn" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
+  <div class="container">
+    <div class="row">
+      <div class="posts col s8 offset-s2">
+        <div class="post">
+          <h1>{{ .Title }}</h1>
+          <span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
+          {{ .Content }}
+        </div>
+        {{ if .Params.tags }}
+        <div>
+          {{ range .Params.tags }}
+          <a class="waves-effect waves-light btn" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
+          {{ end }}
+        </div>
         {{ end }}
-      </div>
-    {{ end }}
 
-    {{ template "_internal/disqus.html" . }}
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
   </div>
 
 </body>
