@@ -1,3 +1,4 @@
+{{ $baseUrl := .Site.BaseURL }}
 {{ partial "head.html" . }}
 <body id="single">
   {{ partial "header.html" . }}
@@ -16,7 +17,7 @@
     {{ if .Params.tags }}
       <div class="collection">
         {{ range .Params.tags }}
-        <a class="collection-item" href="{{ .Site.BaseURL }}/tags/{{ . }}">{{ . }}</a>
+        <a class="collection-item" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
         {{ end }}
       </div>
     {{ end }}
