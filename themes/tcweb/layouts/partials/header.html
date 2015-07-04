@@ -1,21 +1,23 @@
-{{ $currentPath := .URLPath.Url }}
+{{ $currentPath := .URLPath.URL }}
 {{ $baseUrl := .Site.BaseURL }}
 
 <header id="main-header">
-  <a href="{{ $baseUrl }}">
-    <img src="{{ $baseUrl }}/images/profile.jpg" class="profile-image" alt="Go home">
-  </a>
 
-  <nav class="horizontal-nav">
-    <ul class="horizontal-nav-list">
-      <li class="{{ if eq $currentPath "/" }}active{{ end }}">
-        <a href="{{ $baseUrl }}">all</a>
-      </li>
-      {{ range $key, $element := .Site.Sections }}
-      <li class="{{ if eq $currentPath (print "/" $key) }}active{{ end }}">
-        <a href="{{ $baseUrl }}/{{$key}}">{{ $key }}</a>
-      </li>
-      {{ end }}
-    </ul>
+  <nav class="{{ if .Params.color }}{{.Params.color }} darken-2 {{ else }} indigo {{end}}" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="{{ $baseUrl }}">
+        <img src="{{ $baseUrl }}/images/profile.jpg" class="circle" height="64" alt="Go home">
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li class="{{ if eq $currentPath "/" }}active{{ end }}">
+          <a href="{{ $baseUrl }}">all</a>
+        </li>
+        {{ range $key, $element := .Site.Sections }}
+        <li class="{{ if eq $currentPath (print "/" $key) }}active{{ end }}">
+          <a href="{{ $baseUrl }}/{{$key}}">{{ $key }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
   </nav>
 </header>

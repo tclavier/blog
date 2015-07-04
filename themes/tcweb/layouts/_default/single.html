@@ -13,8 +13,16 @@
       <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
       <p class="post-content">{{ .Content }}</p>
     </div>
+    {{ if .Params.tags }}
+      <div class="collection">
+        {{ range .Params.tags }}
+        <a class="collection-item" href="{{ .Site.BaseURL }}/tags/{{ . }}">{{ . }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
 
     {{ template "_internal/disqus.html" . }}
   </div>
+
 </body>
 </html>
