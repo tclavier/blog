@@ -1,11 +1,12 @@
 {{ partial "head.html" . }}
 <body id="list">
   {{ partial "header.html" . }}
-  <div id="content-container">
-    <div class="posts">
-      <!-- Iterate over the pages -->
-      {{ $paginator := .Data.Paginator }}
-      {{range .Paginator.Pages }}
+  <div class="container">
+    <div class="row">
+      <div class="posts col s8 offset-s2">
+        <!-- Iterate over the pages -->
+        {{ $paginator := $.Paginator }}
+        {{range .Paginator.Pages }}
         <div class="post-preview">
           <span class="post-symbol {{ .Params.color }}">
             <i class="symbol fa fa-{{ .Params.icon }}"></i>
@@ -21,17 +22,28 @@
             <p>{{ .Description }}</p>
           </div>
         </div>
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
-    <nav class="pagination" role="navigation">
-      {{if .Paginator.HasPrev}}
-        <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr;</a>
-      {{end}}
-        <span class="page-number"> {{ .Paginator.PageNumber }} / {{.Paginator.TotalPages}}</span>
-      {{if .Paginator.HasNext}}
-        <a class="older-posts" href="{{ .Paginator.Next.URL }}">&rarr;</a>
-      {{end}}
-    </nav>
+    <div class="row">
+      <div class="posts col s8 offset-s2">
+        <ul class="pagination" role="navigation">
+          {{if .Paginator.HasPrev}}
+          <li class="waves-effect"><a class="material-icons" href="{{ .Paginator.Prev.URL }}"><i class="material-icons">chevron_left</i></a></li>
+          {{else}}
+          <li class="disabled"><a class="material-icons" href="#"><i class="material-icons">chevron_left</i></a></li>
+          {{end}}
+          {{ range .Paginator.Pagers }}
+          <li {{ if eq . $paginator }}class="active"{{else}}class="waves-effect"{{ end }}><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+          {{end}}
+          {{if .Paginator.HasNext}}
+          <li class="waves-effect"><a class="material-icons" href="{{ .Paginator.Next.URL }}"><i class="material-icons">chevron_right</i></a></li>
+          {{else}}
+          <li class="disabled"><a class="material-icons" href="#"><i class="material-icons">chevron_right</i></a></li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
   </div>
 
   {{ partial "footer.html" . }}
