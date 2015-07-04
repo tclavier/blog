@@ -15,9 +15,9 @@
       <p class="post-content">{{ .Content }}</p>
     </div>
     {{ if .Params.tags }}
-      <div class="collection">
+      <div>
         {{ range .Params.tags }}
-        <a class="collection-item" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
+        <a class="waves-effect waves-light btn" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
         {{ end }}
       </div>
     {{ end }}

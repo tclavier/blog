@@ -147,10 +147,11 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-code, kbd, pre, samp {
+pre {
   font-family: monospace, monospace;
   font-size: 1em; 
   background-color: #e0e0e0;
+  padding: 1em;
 }
 
 /* Forms
