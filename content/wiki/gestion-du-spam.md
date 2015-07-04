@@ -2,8 +2,8 @@
 date = "2008-02-21"
 draft = false
 title = "Gestion du spam"
-color = "green"
-icon = "bookmark-o"
+color = "orange"
+icon = "hospital-o"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Gestion du spam"
 +++

@@ -2,8 +2,8 @@
 date = "2006-07-25"
 draft = false
 title = "Rodovid"
-color = "deep-purple"
-icon = "phone"
+color = "red"
+icon = "mars-stroke-v"
 Tags = [ "mediawiki"]
 description = "Rodovid"
 +++

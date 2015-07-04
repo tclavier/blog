@@ -2,8 +2,8 @@
 date = "2007-04-19"
 draft = false
 title = "Ekiga wengo et skype"
-color = "lime"
-icon = "thumbs-down"
+color = "yellow"
+icon = "adn"
 Tags = [ "mediawiki"]
 description = "Ekiga wengo et skype"
 +++

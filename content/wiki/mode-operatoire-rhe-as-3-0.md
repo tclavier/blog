@@ -2,8 +2,8 @@
 date = "2006-05-21"
 draft = false
 title = "Mode Operatoire RHE AS 3.0"
-color = "pink"
-icon = "laptop"
+color = "indigo"
+icon = "cubes"
 Tags = [ "mediawiki"]
 description = "Mode Operatoire RHE AS 3.0"
 +++

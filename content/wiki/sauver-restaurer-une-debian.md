@@ -2,8 +2,8 @@
 date = "2010-12-08"
 draft = false
 title = "Sauver restaurer une debian"
-color = "deep-purple"
-icon = "underline"
+color = "red"
+icon = "unsorted"
 Tags = ["linux", "mediawiki"]
 description = "Sauver restaurer une debian"
 +++

@@ -2,8 +2,8 @@
 date = "2010-12-02"
 draft = false
 title = "Vol de discussion"
-color = "brown"
-icon = "sort-amount-desc"
+color = "teal"
+icon = "soundcloud"
 Tags = ["inclassable", "mediawiki"]
 description = "Vol de discussion"
 +++

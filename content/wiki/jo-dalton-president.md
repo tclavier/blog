@@ -2,8 +2,8 @@
 date = "2007-06-30"
 draft = false
 title = "Jo Dalton président"
-color = "amber"
-icon = "step-backward"
+color = "light-green"
+icon = "star-half"
 Tags = ["actualités", "mediawiki"]
 description = "Jo Dalton président"
 +++

@@ -2,8 +2,8 @@
 date = "2005-12-21"
 draft = false
 title = "Dossier technique linux"
-color = "orange"
-icon = "hand-o-left"
+color = "blue"
+icon = "globe"
 Tags = ["pole logiciels libres", "mediawiki"]
 description = "Dossier technique linux"
 +++

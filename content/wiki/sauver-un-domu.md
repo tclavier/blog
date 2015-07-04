@@ -2,8 +2,8 @@
 date = "2007-10-22"
 draft = false
 title = "Sauver un domU"
-color = "pink"
-icon = "level-down"
+color = "amber"
+icon = "dashcube"
 Tags = [ "mediawiki"]
 description = "Sauver un domU"
 +++

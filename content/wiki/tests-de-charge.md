@@ -2,8 +2,8 @@
 date = "2006-09-06"
 draft = false
 title = "Tests de charge"
-color = "indigo"
-icon = "chevron-circle-left"
+color = "cyan"
+icon = "android"
 Tags = [ "mediawiki"]
 description = "Tests de charge"
 +++

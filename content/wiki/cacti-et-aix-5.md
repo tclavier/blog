@@ -2,8 +2,8 @@
 date = "2007-05-16"
 draft = false
 title = "Cacti et Aix 5"
-color = "light-green"
-icon = "columns"
+color = "light-blue"
+icon = "toggle-left"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Cacti et Aix 5"
 +++

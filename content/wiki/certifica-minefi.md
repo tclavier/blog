@@ -2,8 +2,8 @@
 date = "2006-07-29"
 draft = false
 title = "Certifica minefi"
-color = "green"
-icon = "css3"
+color = "light-blue"
+icon = "star-half-o"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Certifica minefi"
 +++

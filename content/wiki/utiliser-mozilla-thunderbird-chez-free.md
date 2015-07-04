@@ -2,8 +2,8 @@
 date = "2007-09-24"
 draft = false
 title = "Utiliser Mozilla Thunderbird chez free"
-color = "light-green"
-icon = "sort-up"
+color = "cyan"
+icon = "unlock-alt"
 Tags = [ "mediawiki"]
 description = "Utiliser Mozilla Thunderbird chez free"
 +++

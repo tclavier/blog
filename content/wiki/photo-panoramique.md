@@ -2,8 +2,8 @@
 date = "2007-05-16"
 draft = false
 title = "Photo panoramique"
-color = "teal"
-icon = "sort-amount-desc"
+color = "purple"
+icon = "scissors"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Photo panoramique"
 +++

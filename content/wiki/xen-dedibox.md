@@ -2,8 +2,8 @@
 date = "2008-06-21"
 draft = false
 title = "Xen dedibox"
-color = "red"
-icon = "twitch"
+color = "deep-orange"
+icon = "refresh"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Xen dedibox"
 +++

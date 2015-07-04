@@ -2,8 +2,8 @@
 date = "2012-05-03"
 draft = false
 title = "Chiffrement"
-color = "indigo"
-icon = "life-bouy"
+color = "deep-purple"
+icon = "xing"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Chiffrement"
 +++

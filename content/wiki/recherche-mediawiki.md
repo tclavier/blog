@@ -2,8 +2,8 @@
 date = "2007-06-20"
 draft = false
 title = "Recherche mediawiki"
-color = "orange"
-icon = "random"
+color = "indigo"
+icon = "ellipsis-h"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Recherche mediawiki"
 +++

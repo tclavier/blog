@@ -2,8 +2,8 @@
 date = "2012-07-31"
 draft = false
 title = "Tests unitaires en perl"
-color = "lime"
-icon = "star"
+color = "pink"
+icon = "bell-slash-o"
 Tags = [ "mediawiki"]
 description = "Tests unitaires en perl"
 +++

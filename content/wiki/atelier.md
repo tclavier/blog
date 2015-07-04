@@ -2,8 +2,8 @@
 date = "2008-05-29"
 draft = false
 title = "Atelier"
-color = "deep-orange"
-icon = "film"
+color = "lime"
+icon = "comments-o"
 Tags = [ "mediawiki"]
 description = "Atelier"
 +++

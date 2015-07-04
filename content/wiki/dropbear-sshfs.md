@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "Dropbear sshfs"
-color = "brown"
-icon = "cube"
+color = "red"
+icon = "power-off"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Dropbear sshfs"
 +++

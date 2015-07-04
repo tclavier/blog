@@ -2,8 +2,8 @@
 date = "2006-05-29"
 draft = false
 title = "Filtrer son courrier"
-color = "lime"
-icon = "arrow-left"
+color = "red"
+icon = "flask"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Filtrer son courrier"
 +++

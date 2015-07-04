@@ -2,8 +2,8 @@
 date = "2010-04-29"
 draft = false
 title = "Configurer le firewall openwrt"
-color = "lime"
-icon = "eject"
+color = "yellow"
+icon = "history"
 Tags = ["trucs_et_astuces", "mediawiki"]
 description = "Configurer le firewall openwrt"
 +++

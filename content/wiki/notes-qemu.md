@@ -2,8 +2,8 @@
 date = "2010-09-27"
 draft = false
 title = "Notes qemu"
-color = "light-green"
-icon = "user-times"
+color = "indigo"
+icon = "eraser"
 Tags = [ "mediawiki"]
 description = "Notes qemu"
 +++

@@ -2,8 +2,8 @@
 date = "2007-05-06"
 draft = false
 title = "Lire son courrier"
-color = "blue"
-icon = "calendar-o"
+color = "grey"
+icon = "stop"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Lire son courrier"
 +++

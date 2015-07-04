@@ -2,8 +2,8 @@
 date = "2013-05-15"
 draft = false
 title = "Astuces subversion"
-color = "pink"
-icon = "file-o"
+color = "deep-purple"
+icon = "cog"
 Tags = [ "mediawiki"]
 description = "Astuces subversion"
 +++

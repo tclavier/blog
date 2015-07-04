@@ -2,8 +2,8 @@
 date = "2006-05-02"
 draft = false
 title = "Les hortensias"
-color = "amber"
-icon = "file-video-o"
+color = "teal"
+icon = "group"
 Tags = ["projets", "mediawiki"]
 description = "Les hortensias"
 +++

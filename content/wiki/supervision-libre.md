@@ -2,8 +2,8 @@
 date = "2007-04-06"
 draft = false
 title = "Supervision libre"
-color = "purple"
-icon = "file-excel-o"
+color = "green"
+icon = "history"
 Tags = [ "mediawiki"]
 description = "Supervision libre"
 +++

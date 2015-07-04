@@ -2,8 +2,8 @@
 date = "2007-05-16"
 draft = false
 title = "Mémo GnuPG"
-color = "blue"
-icon = "warning"
+color = "light-green"
+icon = "check-circle-o"
 Tags = [ "mediawiki"]
 description = "Mémo GnuPG"
 +++

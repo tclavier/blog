@@ -2,8 +2,8 @@
 date = "2006-10-20"
 draft = false
 title = "SpeetouchUSB debian et free dégroupé"
-color = "light-blue"
-icon = "briefcase"
+color = "deep-purple"
+icon = "external-link"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "SpeetouchUSB debian et free dégroupé"
 +++

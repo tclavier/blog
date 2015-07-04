@@ -2,8 +2,8 @@
 date = "2008-10-31"
 draft = false
 title = "Intégration salons jabber"
-color = "deep-orange"
-icon = "lightbulb-o"
+color = "light-green"
+icon = "copy"
 Tags = [ "mediawiki"]
 description = "Intégration salons jabber"
 +++

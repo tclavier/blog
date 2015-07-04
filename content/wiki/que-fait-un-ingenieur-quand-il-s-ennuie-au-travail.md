@@ -2,8 +2,8 @@
 date = "2007-02-02"
 draft = false
 title = "Que fait un ingénieur quand il s'ennuie au travail ?"
-color = "purple"
-icon = "tty"
+color = "deep-orange"
+icon = "arrow-circle-left"
 Tags = ["odyssée", "mediawiki"]
 description = "Que fait un ingénieur quand il s'ennuie au travail ?"
 +++

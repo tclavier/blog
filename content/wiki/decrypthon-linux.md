@@ -2,8 +2,8 @@
 date = "2007-12-07"
 draft = false
 title = "Décrypthon linux"
-color = "green"
-icon = "chain-broken"
+color = "grey"
+icon = "sort-down"
 Tags = [ "mediawiki"]
 description = "Décrypthon linux"
 +++

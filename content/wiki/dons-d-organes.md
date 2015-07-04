@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "Dons d'organes"
-color = "amber"
-icon = "columns"
+color = "deep-purple"
+icon = "child"
 Tags = [ "mediawiki"]
 description = "Dons d'organes"
 +++

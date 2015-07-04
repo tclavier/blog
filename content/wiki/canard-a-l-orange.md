@@ -2,8 +2,8 @@
 date = "2007-02-02"
 draft = false
 title = "Canard à l'orange"
-color = "deep-purple"
-icon = "venus-mars"
+color = "red"
+icon = "graduation-cap"
 Tags = ["cuisine", "mediawiki"]
 description = "Canard à l'orange"
 +++

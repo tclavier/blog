@@ -2,8 +2,8 @@
 date = "2008-06-27"
 draft = false
 title = "Rétrospective scrum"
-color = "light-green"
-icon = "legal"
+color = "pink"
+icon = "compress"
 Tags = [ "mediawiki"]
 description = "Rétrospective scrum"
 +++

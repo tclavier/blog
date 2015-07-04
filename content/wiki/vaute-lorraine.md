@@ -2,8 +2,8 @@
 date = "2007-11-15"
 draft = false
 title = "Vaute lorraine"
-color = "purple"
-icon = "tachometer"
+color = "pink"
+icon = "toggle-off"
 Tags = ["cuisine", "mediawiki"]
 description = "Vaute lorraine"
 +++

@@ -2,8 +2,8 @@
 date = "2008-06-21"
 draft = false
 title = "Expérimentation lomme"
-color = "deep-orange"
-icon = "user-plus"
+color = "amber"
+icon = "bicycle"
 Tags = ["lille sans fil", "mediawiki"]
 description = "Expérimentation lomme"
 +++

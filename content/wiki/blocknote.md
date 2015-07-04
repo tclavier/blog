@@ -2,8 +2,8 @@
 date = "2007-06-08"
 draft = false
 title = "Blocknote"
-color = "deep-orange"
-icon = "heartbeat"
+color = "pink"
+icon = "money"
 Tags = [ "mediawiki"]
 description = "Blocknote"
 +++

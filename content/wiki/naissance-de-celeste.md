@@ -2,8 +2,8 @@
 date = "2006-06-11"
 draft = false
 title = "Naissance de céleste"
-color = "purple"
-icon = "compress"
+color = "orange"
+icon = "legal"
 Tags = [ "mediawiki"]
 description = "Naissance de céleste"
 +++

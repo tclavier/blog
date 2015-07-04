@@ -2,8 +2,8 @@
 date = "2008-07-15"
 draft = false
 title = "Spamassassin sur une petite config"
-color = "indigo"
-icon = "upload"
+color = "lime"
+icon = "file-movie-o"
 Tags = ["linux", "mediawiki"]
 description = "Spamassassin sur une petite config"
 +++

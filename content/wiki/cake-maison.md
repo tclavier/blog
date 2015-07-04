@@ -2,8 +2,8 @@
 date = "2007-11-22"
 draft = false
 title = "Cake maison"
-color = "grey"
-icon = "shopping-cart"
+color = "pink"
+icon = "exchange"
 Tags = ["cuisine", "mediawiki"]
 description = "Cake maison"
 +++

@@ -2,8 +2,8 @@
 date = "2005-10-05"
 draft = false
 title = "NewsLetter Octobre 2005"
-color = "green"
-icon = "server"
+color = "amber"
+icon = "reddit"
 Tags = ["pole logiciels libres", "mediawiki"]
 description = "NewsLetter Octobre 2005"
 +++

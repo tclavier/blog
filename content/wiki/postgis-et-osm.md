@@ -2,8 +2,8 @@
 date = "2012-08-04"
 draft = false
 title = "Postgis et OSM"
-color = "purple"
-icon = "bitcoin"
+color = "indigo"
+icon = "th-large"
 Tags = [ "mediawiki"]
 description = "Postgis et OSM"
 +++

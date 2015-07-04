@@ -2,8 +2,8 @@
 date = "2008-06-27"
 draft = false
 title = "Revue de sprint"
-color = "cyan"
-icon = "tachometer"
+color = "brown"
+icon = "support"
 Tags = [ "mediawiki"]
 description = "Revue de sprint"
 +++

@@ -2,8 +2,8 @@
 date = "2007-07-17"
 draft = false
 title = "Utiliser CAcert.org"
-color = "deep-purple"
-icon = "arrow-circle-right"
+color = "red"
+icon = "clipboard"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Utiliser CAcert.org"
 +++

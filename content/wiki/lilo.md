@@ -2,8 +2,8 @@
 date = "2009-10-05"
 draft = false
 title = "Lilo"
-color = "deep-purple"
-icon = "lock"
+color = "amber"
+icon = "magnet"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Lilo"
 +++

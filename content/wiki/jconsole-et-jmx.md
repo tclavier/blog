@@ -2,8 +2,8 @@
 date = "2009-04-08"
 draft = false
 title = "Jconsole et jmx"
-color = "yellow"
-icon = "step-forward"
+color = "light-blue"
+icon = "adjust"
 Tags = [ "mediawiki"]
 description = "Jconsole et jmx"
 +++

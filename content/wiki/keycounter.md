@@ -2,8 +2,8 @@
 date = "2006-11-16"
 draft = false
 title = "Keycounter"
-color = "blue"
-icon = "diamond"
+color = "green"
+icon = "play-circle"
 Tags = ["inclassable", "mediawiki"]
 description = "Keycounter"
 +++

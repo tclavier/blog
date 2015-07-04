@@ -2,8 +2,8 @@
 date = "2005-07-27"
 draft = false
 title = "Bugs IE"
-color = "cyan"
-icon = "trash-o"
+color = "green"
+icon = "twitter"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Bugs IE"
 +++

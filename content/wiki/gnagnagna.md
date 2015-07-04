@@ -2,8 +2,8 @@
 date = "2005-11-04"
 draft = false
 title = "Gnagnagna"
-color = "red"
-icon = "signal"
+color = "pink"
+icon = "file-movie-o"
 Tags = ["inclassable", "mediawiki"]
 description = "Gnagnagna"
 +++
