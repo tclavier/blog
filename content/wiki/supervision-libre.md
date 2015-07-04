@@ -2,8 +2,8 @@
 date = "2007-04-06"
 draft = false
 title = "Supervision libre"
-color = "yellow"
-icon = "file-audio-o"
+color = "indigo"
+icon = "lightbulb-o"
 Tags = [ "mediawiki"]
 description = "Supervision libre"
 +++

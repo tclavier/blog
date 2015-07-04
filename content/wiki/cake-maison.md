@@ -2,8 +2,8 @@
 date = "2007-11-22"
 draft = false
 title = "Cake maison"
-color = "yellow"
-icon = "mail-reply-all"
+color = "indigo"
+icon = "copy"
 Tags = ["cuisine", "mediawiki"]
 description = "Cake maison"
 +++

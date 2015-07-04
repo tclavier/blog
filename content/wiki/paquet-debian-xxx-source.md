@@ -2,8 +2,8 @@
 date = "2006-11-17"
 draft = false
 title = "Paquet debian xxx-source"
-color = "green"
-icon = "flash"
+color = "teal"
+icon = "area-chart"
 Tags = [ "mediawiki"]
 description = "Paquet debian xxx-source"
 +++

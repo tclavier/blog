@@ -2,8 +2,8 @@
 date = "2005-09-23"
 draft = false
 title = "Quel est le vrai problème avec le Cannabis ?"
-color = "red"
-icon = "caret-down"
+color = "pink"
+icon = "chevron-circle-up"
 Tags = ["odyssée", "mediawiki"]
 description = "Quel est le vrai problème avec le Cannabis ?"
 +++

@@ -2,8 +2,8 @@
 date = "2005-08-07"
 draft = false
 title = "Winpt"
-color = "green"
-icon = "road"
+color = "purple"
+icon = "trophy"
 Tags = [ "mediawiki"]
 description = "Winpt"
 +++

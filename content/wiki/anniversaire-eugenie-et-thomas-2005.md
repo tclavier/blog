@@ -2,8 +2,8 @@
 date = "2005-07-08"
 draft = false
 title = "Anniversaire eugénie et thomas 2005"
-color = "blue"
-icon = "subscript"
+color = "deep-purple"
+icon = "plus-circle"
 Tags = [ "mediawiki"]
 description = "Anniversaire eugénie et thomas 2005"
 +++

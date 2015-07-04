@@ -2,8 +2,8 @@
 date = "2011-06-09"
 draft = false
 title = "Ssh"
-color = "red"
-icon = "whatsapp"
+color = "amber"
+icon = "cab"
 Tags = [ "mediawiki"]
 description = "Ssh"
 +++

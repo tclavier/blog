@@ -2,8 +2,8 @@
 date = "2008-07-29"
 draft = false
 title = "Migration argbs-ws01"
-color = "yellow"
-icon = "smile-o"
+color = "cyan"
+icon = "eye-slash"
 Tags = [ "mediawiki"]
 description = "Migration argbs-ws01"
 +++

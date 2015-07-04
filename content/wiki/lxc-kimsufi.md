@@ -2,8 +2,8 @@
 date = "2011-06-22"
 draft = false
 title = "Lxc kimsufi"
-color = "blue"
-icon = "file-audio-o"
+color = "brown"
+icon = "fast-forward"
 Tags = [ "mediawiki"]
 description = "Lxc kimsufi"
 +++

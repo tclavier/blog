@@ -2,8 +2,8 @@
 date = "2010-03-23"
 draft = false
 title = "Sas vélo"
-color = "blue"
-icon = "history"
+color = "grey"
+icon = "cutlery"
 Tags = [ "mediawiki"]
 description = "Sas vélo"
 +++

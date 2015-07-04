@@ -2,8 +2,8 @@
 date = "2013-09-23"
 draft = false
 title = "Git"
-color = "yellow"
-icon = "legal"
+color = "blue"
+icon = "space-shuttle"
 Tags = [ "mediawiki"]
 description = "Git"
 +++

@@ -2,8 +2,8 @@
 date = "2010-02-26"
 draft = false
 title = "Concours site adventec"
-color = "blue"
-icon = "spoon"
+color = "yellow"
+icon = "play"
 Tags = ["projets", "mediawiki"]
 description = "Concours site adventec"
 +++

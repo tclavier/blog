@@ -2,8 +2,8 @@
 date = "2008-08-11"
 draft = false
 title = "Tour de France SilverLight 2007 à Lille"
-color = "blue"
-icon = "tags"
+color = "red"
+icon = "stumbleupon-circle"
 Tags = [ "mediawiki"]
 description = "Tour de France SilverLight 2007 à Lille"
 +++

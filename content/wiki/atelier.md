@@ -2,8 +2,8 @@
 date = "2008-05-29"
 draft = false
 title = "Atelier"
-color = "blue"
-icon = "star-half-empty"
+color = "orange"
+icon = "gear"
 Tags = [ "mediawiki"]
 description = "Atelier"
 +++

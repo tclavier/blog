@@ -2,8 +2,8 @@
 date = "2006-04-12"
 draft = false
 title = "Centre mana"
-color = "yellow"
-icon = "hospital-o"
+color = "indigo"
+icon = "backward"
 Tags = ["projets", "mediawiki"]
 description = "Centre mana"
 +++

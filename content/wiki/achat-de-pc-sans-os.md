@@ -2,8 +2,8 @@
 date = "2008-07-06"
 draft = false
 title = "Achat de pc sans os"
-color = "green"
-icon = "dashcube"
+color = "purple"
+icon = "ellipsis-v"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Achat de pc sans os"
 +++

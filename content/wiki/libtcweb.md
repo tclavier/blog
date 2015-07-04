@@ -2,8 +2,8 @@
 date = "2007-05-06"
 draft = false
 title = "LibTcWeb"
-color = "orange "
-icon = "times-circle"
+color = "grey"
+icon = "thumbs-o-down"
 Tags = ["projets", "mediawiki"]
 description = "LibTcWeb"
 +++

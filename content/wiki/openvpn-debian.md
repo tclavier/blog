@@ -2,8 +2,8 @@
 date = "2009-01-26"
 draft = false
 title = "OpenVpn Debian"
-color = "green"
-icon = "spinner"
+color = "pink"
+icon = "male"
 Tags = [ "mediawiki"]
 description = "OpenVpn Debian"
 +++

@@ -2,8 +2,8 @@
 date = "2006-12-05"
 draft = false
 title = "Bac à sable"
-color = "blue"
-icon = "ioxhost"
+color = "red"
+icon = "linux"
 Tags = [ "mediawiki"]
 description = "Bac à sable"
 +++

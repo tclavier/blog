@@ -2,8 +2,8 @@
 date = "2006-10-04"
 draft = false
 title = "Phpdiap"
-color = "orange "
-icon = "rouble"
+color = "red"
+icon = "inr"
 Tags = ["projets", "mediawiki"]
 description = "Phpdiap"
 +++

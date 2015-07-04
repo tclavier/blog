@@ -2,8 +2,8 @@
 date = "2009-07-13"
 draft = false
 title = "XChat"
-color = "orange "
-icon = "eject"
+color = "orange"
+icon = "bold"
 Tags = [ "mediawiki"]
 description = "XChat"
 +++

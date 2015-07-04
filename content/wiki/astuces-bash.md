@@ -2,8 +2,8 @@
 date = "2012-06-29"
 draft = false
 title = "Astuces Bash"
-color = "green"
-icon = "magic"
+color = "yellow"
+icon = "simplybuilt"
 Tags = [ "mediawiki"]
 description = "Astuces Bash"
 +++

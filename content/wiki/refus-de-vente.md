@@ -2,8 +2,8 @@
 date = "2008-03-18"
 draft = false
 title = "Refus de vente"
-color = "blue"
-icon = "spotify"
+color = "lime"
+icon = "header"
 Tags = [ "mediawiki"]
 description = "Refus de vente"
 +++

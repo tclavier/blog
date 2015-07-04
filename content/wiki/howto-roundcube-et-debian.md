@@ -2,8 +2,8 @@
 date = "2007-09-20"
 draft = false
 title = "HowTo RoundCube et debian"
-color = "green"
-icon = "ils"
+color = "orange"
+icon = "clipboard"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "HowTo RoundCube et debian"
 +++

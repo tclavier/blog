@@ -2,8 +2,8 @@
 date = "2009-11-09"
 draft = false
 title = "Tgz2vdi"
-color = "yellow"
-icon = "arrow-circle-o-down"
+color = "purple"
+icon = "building-o"
 Tags = [ "mediawiki"]
 description = "Tgz2vdi"
 +++

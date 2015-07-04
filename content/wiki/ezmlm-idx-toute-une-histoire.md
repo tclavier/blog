@@ -2,8 +2,8 @@
 date = "2007-12-06"
 draft = false
 title = "Ezmlm-idx toute une histoire"
-color = "orange "
-icon = "instagram"
+color = "light-blue"
+icon = "sort-alpha-desc"
 Tags = ["linux", "mediawiki"]
 description = "Ezmlm-idx toute une histoire"
 +++

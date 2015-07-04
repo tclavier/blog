@@ -2,8 +2,8 @@
 date = "2010-05-05"
 draft = false
 title = "Recherches 20100505"
-color = "red"
-icon = "forward"
+color = "deep-orange"
+icon = "retweet"
 Tags = [ "mediawiki"]
 description = "Recherches 20100505"
 +++

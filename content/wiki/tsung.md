@@ -2,8 +2,8 @@
 date = "2006-09-06"
 draft = false
 title = "Tsung"
-color = "orange "
-icon = "building"
+color = "indigo"
+icon = "dashboard"
 Tags = [ "mediawiki"]
 description = "Tsung"
 +++

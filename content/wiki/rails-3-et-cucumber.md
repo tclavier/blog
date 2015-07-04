@@ -2,8 +2,8 @@
 date = "2011-08-30"
 draft = false
 title = "Rails 3 et cucumber"
-color = "red"
-icon = "adjust"
+color = "light-blue"
+icon = "file"
 Tags = [ "mediawiki"]
 description = "Rails 3 et cucumber"
 +++

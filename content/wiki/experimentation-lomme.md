@@ -2,8 +2,8 @@
 date = "2008-06-21"
 draft = false
 title = "Expérimentation lomme"
-color = "green"
-icon = "file-video-o"
+color = "amber"
+icon = "circle-thin"
 Tags = ["lille sans fil", "mediawiki"]
 description = "Expérimentation lomme"
 +++

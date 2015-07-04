@@ -2,8 +2,8 @@
 date = "2011-06-15"
 draft = false
 title = "Debian java ssl"
-color = "green"
-icon = "bell"
+color = "yellow"
+icon = "filter"
 Tags = [ "mediawiki"]
 description = "Debian java ssl"
 +++

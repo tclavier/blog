@@ -2,8 +2,8 @@
 date = "2008-12-09"
 draft = false
 title = "Ma liste antispam"
-color = "green"
-icon = "bitcoin"
+color = "yellow"
+icon = "soccer-ball-o"
 Tags = [ "mediawiki"]
 description = "Ma liste antispam"
 +++

@@ -2,8 +2,8 @@
 date = "2009-04-17"
 draft = false
 title = "Au revoir ong"
-color = "red"
-icon = "youtube"
+color = "blue"
+icon = "meanpath"
 Tags = [ "mediawiki"]
 description = "Au revoir ong"
 +++

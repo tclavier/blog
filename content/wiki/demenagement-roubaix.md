@@ -2,8 +2,8 @@
 date = "2009-01-05"
 draft = false
 title = "Déménagement Roubaix"
-color = "yellow"
-icon = "file-photo-o"
+color = "light-green"
+icon = "flag-checkered"
 Tags = [ "mediawiki"]
 description = "Déménagement Roubaix"
 +++

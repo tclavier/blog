@@ -2,8 +2,8 @@
 date = "2007-11-30"
 draft = false
 title = "Clavier Français sous Linux"
-color = "red"
-icon = "lightbulb-o"
+color = "pink"
+icon = "chevron-down"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Clavier Français sous Linux"
 +++

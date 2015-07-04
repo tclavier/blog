@@ -2,8 +2,8 @@
 date = "2005-07-08"
 draft = false
 title = "Anniversaire thomas 2004"
-color = "yellow"
-icon = "arrow-right"
+color = "light-blue"
+icon = "institution"
 Tags = [ "mediawiki"]
 description = "Anniversaire thomas 2004"
 +++

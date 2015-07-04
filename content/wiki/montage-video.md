@@ -2,8 +2,8 @@
 date = "2010-05-21"
 draft = false
 title = "Montage vidéo"
-color = "yellow"
-icon = "bank"
+color = "light-blue"
+icon = "cube"
 Tags = ["linux", "mediawiki"]
 description = "Montage vidéo"
 +++

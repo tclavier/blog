@@ -2,8 +2,8 @@
 date = "2008-05-26"
 draft = false
 title = "Ext3 et LVM"
-color = "red"
-icon = "building-o"
+color = "yellow"
+icon = "folder-open-o"
 Tags = [ "mediawiki"]
 description = "Ext3 et LVM"
 +++

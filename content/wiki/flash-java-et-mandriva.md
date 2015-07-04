@@ -2,8 +2,8 @@
 date = "2007-05-06"
 draft = false
 title = "Flash java et mandriva"
-color = "orange "
-icon = "dropbox"
+color = "purple"
+icon = "angle-double-left"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Flash java et mandriva"
 +++

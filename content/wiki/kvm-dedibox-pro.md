@@ -2,8 +2,8 @@
 date = "2009-11-16"
 draft = false
 title = "Kvm dedibox pro"
-color = "blue"
-icon = "user-secret"
+color = "green"
+icon = "bookmark-o"
 Tags = [ "mediawiki"]
 description = "Kvm dedibox pro"
 +++

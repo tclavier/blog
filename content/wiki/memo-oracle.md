@@ -2,8 +2,8 @@
 date = "2006-12-18"
 draft = false
 title = "Memo Oracle"
-color = "green"
-icon = "signal"
+color = "blue"
+icon = "file-sound-o"
 Tags = [ "mediawiki"]
 description = "Memo Oracle"
 +++

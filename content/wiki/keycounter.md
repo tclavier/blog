@@ -2,8 +2,8 @@
 date = "2006-11-16"
 draft = false
 title = "Keycounter"
-color = "red"
-icon = "tumblr"
+color = "amber"
+icon = "eyedropper"
 Tags = ["inclassable", "mediawiki"]
 description = "Keycounter"
 +++

@@ -2,8 +2,8 @@
 date = "2009-10-12"
 draft = false
 title = "Plowshare"
-color = "yellow"
-icon = "jpy"
+color = "green"
+icon = "fast-backward"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Plowshare"
 +++

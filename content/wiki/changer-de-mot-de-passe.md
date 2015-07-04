@@ -2,8 +2,8 @@
 date = "2006-05-10"
 draft = false
 title = "Changer de mot de passe"
-color = "green"
-icon = "thumbs-down"
+color = "grey"
+icon = "calendar-o"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Changer de mot de passe"
 +++

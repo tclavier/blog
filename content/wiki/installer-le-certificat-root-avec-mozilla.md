@@ -2,8 +2,8 @@
 date = "2007-07-17"
 draft = false
 title = "Installer le certificat root avec mozilla"
-color = "blue"
-icon = "question"
+color = "orange"
+icon = "retweet"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Installer le certificat root avec mozilla"
 +++

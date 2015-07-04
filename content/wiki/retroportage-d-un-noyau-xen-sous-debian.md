@@ -2,8 +2,8 @@
 date = "2008-02-14"
 draft = false
 title = "Rétroportage d'un noyau xen sous debian"
-color = "blue"
-icon = "bullhorn"
+color = "deep-purple"
+icon = "bicycle"
 Tags = [ "mediawiki"]
 description = "Rétroportage d'un noyau xen sous debian"
 +++

@@ -2,8 +2,8 @@
 date = "2007-04-06"
 draft = false
 title = "Timestamp to Date"
-color = "blue"
-icon = "stop"
+color = "cyan"
+icon = "empire"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Timestamp to Date"
 +++

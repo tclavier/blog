@@ -2,8 +2,8 @@
 date = "2008-12-20"
 draft = false
 title = "Raid logiciel"
-color = "green"
-icon = "at"
+color = "amber"
+icon = "plus-circle"
 Tags = [ "mediawiki"]
 description = "Raid logiciel"
 +++

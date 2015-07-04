@@ -2,8 +2,8 @@
 date = "2011-01-01"
 draft = false
 title = "AdobeAir"
-color = "yellow"
-icon = "long-arrow-down"
+color = "teal"
+icon = "refresh"
 Tags = [ "mediawiki"]
 description = "AdobeAir"
 +++

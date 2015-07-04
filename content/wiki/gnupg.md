@@ -2,8 +2,8 @@
 date = "2007-05-16"
 draft = false
 title = "GnuPG"
-color = "orange "
-icon = "angle-double-right"
+color = "brown"
+icon = "paragraph"
 Tags = [ "mediawiki"]
 description = "GnuPG"
 +++

@@ -2,8 +2,8 @@
 date = "2010-10-01"
 draft = false
 title = "Activer le monitoring snmp"
-color = "blue"
-icon = "expand"
+color = "amber"
+icon = "bolt"
 Tags = ["trucs et astuces","linux","xen", "mediawiki"]
 description = "Activer le monitoring snmp"
 +++

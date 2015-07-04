@@ -3,7 +3,7 @@ date = "2008-08-10"
 draft = false
 title = "Thème TcWeb pour mediawiki"
 color = "green"
-icon = "th-list"
+icon = "gavel"
 Tags = ["projets", "mediawiki"]
 description = "Thème TcWeb pour mediawiki"
 +++

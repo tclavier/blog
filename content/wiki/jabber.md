@@ -2,8 +2,8 @@
 date = "2011-09-07"
 draft = false
 title = "Jabber"
-color = "green"
-icon = "tumblr"
+color = "teal"
+icon = "heartbeat"
 Tags = [ "mediawiki"]
 description = "Jabber"
 +++

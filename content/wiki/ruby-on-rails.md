@@ -3,7 +3,7 @@ date = "2011-03-28"
 draft = false
 title = "Ruby on Rails"
 color = "red"
-icon = "apple"
+icon = "plane"
 Tags = [ "mediawiki"]
 description = "Ruby on Rails"
 +++

@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "En direct des RMLL 2007"
-color = "red"
-icon = "history"
+color = "brown"
+icon = "cloud"
 Tags = [ "mediawiki"]
 description = "En direct des RMLL 2007"
 +++

@@ -2,8 +2,8 @@
 date = "2010-08-03"
 draft = false
 title = "Pourquoi bannir Skype"
-color = "blue"
-icon = "truck"
+color = "cyan"
+icon = "image"
 Tags = [ "mediawiki"]
 description = "Pourquoi bannir Skype"
 +++

@@ -2,8 +2,8 @@
 date = "2007-06-20"
 draft = false
 title = "Compte rendu de l'incident du 28-02-2007"
-color = "yellow"
-icon = "search-minus"
+color = "cyan"
+icon = "slideshare"
 Tags = ["incident", "mediawiki"]
 description = "Compte rendu de l'incident du 28-02-2007"
 +++

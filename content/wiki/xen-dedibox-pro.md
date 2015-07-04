@@ -2,8 +2,8 @@
 date = "2010-05-26"
 draft = false
 title = "Xen dedibox pro"
-color = "blue"
-icon = "ban"
+color = "pink"
+icon = "chevron-up"
 Tags = [ "mediawiki"]
 description = "Xen dedibox pro"
 +++

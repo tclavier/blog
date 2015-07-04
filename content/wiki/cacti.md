@@ -2,8 +2,8 @@
 date = "2009-11-02"
 draft = false
 title = "Cacti"
-color = "orange "
-icon = "briefcase"
+color = "grey"
+icon = "check-circle-o"
 Tags = [ "mediawiki"]
 description = "Cacti"
 +++

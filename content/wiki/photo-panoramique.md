@@ -3,7 +3,7 @@ date = "2007-05-16"
 draft = false
 title = "Photo panoramique"
 color = "blue"
-icon = "text-height"
+icon = "chevron-right"
 Tags = ["linux","trucs et astuces", "mediawiki"]
 description = "Photo panoramique"
 +++

@@ -3,7 +3,7 @@ date = "2006-05-29"
 draft = false
 title = "Filtrer son courrier"
 color = "yellow"
-icon = "list"
+icon = "html5"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Filtrer son courrier"
 +++

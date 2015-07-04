@@ -2,8 +2,8 @@
 date = "2008-04-29"
 draft = false
 title = "Traverser un proxy"
-color = "yellow"
-icon = "fast-forward"
+color = "amber"
+icon = "road"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Traverser un proxy"
 +++

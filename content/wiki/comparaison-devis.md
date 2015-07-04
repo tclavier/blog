@@ -2,8 +2,8 @@
 date = "2009-04-28"
 draft = false
 title = "Comparaison devis"
-color = "orange "
-icon = "credit-card"
+color = "red"
+icon = "laptop"
 Tags = [ "mediawiki"]
 description = "Comparaison devis"
 +++

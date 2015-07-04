@@ -2,8 +2,8 @@
 date = "2006-08-23"
 draft = false
 title = "APE"
-color = "blue"
-icon = "fire-extinguisher"
+color = "red"
+icon = "pied-piper-alt"
 Tags = ["projets", "mediawiki"]
 description = "APE"
 +++

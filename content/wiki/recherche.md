@@ -2,8 +2,8 @@
 date = "2007-05-16"
 draft = false
 title = "Recherche"
-color = "green"
-icon = "spinner"
+color = "grey"
+icon = "tag"
 Tags = [ "mediawiki"]
 description = "Recherche"
 +++

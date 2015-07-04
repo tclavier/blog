@@ -2,8 +2,8 @@
 date = "2008-06-03"
 draft = false
 title = "Castore"
-color = "yellow"
-icon = "star-half-empty"
+color = "brown"
+icon = "th"
 Tags = [ "mediawiki"]
 description = "Castore"
 +++

@@ -2,8 +2,8 @@
 date = "2011-02-11"
 draft = false
 title = "Java tips"
-color = "orange "
-icon = "star-half-empty"
+color = "amber"
+icon = "male"
 Tags = [ "mediawiki"]
 description = "Java tips"
 +++

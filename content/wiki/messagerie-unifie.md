@@ -2,8 +2,8 @@
 date = "2009-02-18"
 draft = false
 title = "Messagerie unifié"
-color = "orange "
-icon = "cny"
+color = "yellow"
+icon = "skyatlas"
 Tags = ["projets", "mediawiki"]
 description = "Messagerie unifié"
 +++

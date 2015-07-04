@@ -2,8 +2,8 @@
 date = "2011-11-14"
 draft = false
 title = "Gérer les abonnements dans Mailman"
-color = "yellow"
-icon = "rouble"
+color = "lime"
+icon = "text-width"
 Tags = [ "mediawiki"]
 description = "Gérer les abonnements dans Mailman"
 +++

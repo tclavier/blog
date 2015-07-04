@@ -2,8 +2,8 @@
 date = "2006-07-29"
 draft = false
 title = "Certifica minefi"
-color = "orange "
-icon = "columns"
+color = "orange"
+icon = "pinterest-p"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Certifica minefi"
 +++

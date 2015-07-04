@@ -2,8 +2,8 @@
 date = "2006-08-23"
 draft = false
 title = "Etude du wrt54g"
-color = "orange "
-icon = "mobile"
+color = "purple"
+icon = "star-half"
 Tags = ["projets","lille sans fil", "mediawiki"]
 description = "Etude du wrt54g"
 +++

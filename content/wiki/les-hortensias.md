@@ -2,8 +2,8 @@
 date = "2006-05-02"
 draft = false
 title = "Les hortensias"
-color = "red"
-icon = "thumbs-o-down"
+color = "yellow"
+icon = "arrow-left"
 Tags = ["projets", "mediawiki"]
 description = "Les hortensias"
 +++

@@ -2,8 +2,8 @@
 date = "2006-01-27"
 draft = false
 title = "Cygwin"
-color = "green"
-icon = "header"
+color = "amber"
+icon = "gbp"
 Tags = [ "mediawiki"]
 description = "Cygwin"
 +++

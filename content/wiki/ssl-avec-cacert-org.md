@@ -2,8 +2,8 @@
 date = "2011-10-12"
 draft = false
 title = "SSL avec CAcert.org"
-color = "yellow"
-icon = "ils"
+color = "light-green"
+icon = "step-forward"
 Tags = [ "mediawiki"]
 description = "SSL avec CAcert.org"
 +++

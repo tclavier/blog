@@ -2,8 +2,8 @@
 date = "2007-06-25"
 draft = false
 title = "Statut asso info"
-color = "green"
-icon = "reply-all"
+color = "brown"
+icon = "arrow-circle-o-left"
 Tags = [ "mediawiki"]
 description = "Statut asso info"
 +++

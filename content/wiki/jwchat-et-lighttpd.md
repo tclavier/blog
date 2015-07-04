@@ -2,8 +2,8 @@
 date = "2007-12-04"
 draft = false
 title = "Jwchat et lighttpd"
-color = "red"
-icon = "superscript"
+color = "lime"
+icon = "square"
 Tags = ["linux", "mediawiki"]
 description = "Jwchat et lighttpd"
 +++

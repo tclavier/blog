@@ -2,8 +2,8 @@
 date = "2010-03-09"
 draft = false
 title = "Postfix"
-color = "orange "
-icon = "venus-double"
+color = "grey"
+icon = "institution"
 Tags = ["trucs et astuces", "mediawiki"]
 description = "Postfix"
 +++

@@ -2,8 +2,8 @@
 date = "2006-02-27"
 draft = false
 title = "Serveur mail"
-color = "green"
-icon = "file-movie-o"
+color = "yellow"
+icon = "flask"
 Tags = ["pole logiciels libres", "mediawiki"]
 description = "Serveur mail"
 +++

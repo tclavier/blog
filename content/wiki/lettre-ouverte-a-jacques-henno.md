@@ -2,8 +2,8 @@
 date = "2009-04-25"
 draft = false
 title = "Lettre ouverte à Jacques Henno"
-color = "green"
-icon = "angle-right"
+color = "indigo"
+icon = "user-times"
 Tags = [ "mediawiki"]
 description = "Lettre ouverte à Jacques Henno"
 +++

@@ -3,7 +3,7 @@ date = "2008-01-14"
 draft = false
 title = "Recherche immobilière 2008"
 color = "yellow"
-icon = "adjust"
+icon = "sort-asc"
 Tags = [ "mediawiki"]
 description = "Recherche immobilière 2008"
 +++

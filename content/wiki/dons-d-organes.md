@@ -2,8 +2,8 @@
 date = "2008-08-10"
 draft = false
 title = "Dons d'organes"
-color = "green"
-icon = "envelope"
+color = "grey"
+icon = "exclamation-triangle"
 Tags = [ "mediawiki"]
 description = "Dons d'organes"
 +++

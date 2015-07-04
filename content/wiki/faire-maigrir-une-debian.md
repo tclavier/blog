@@ -3,7 +3,7 @@ date = "2006-11-29"
 draft = false
 title = "Faire maigrir une debian"
 color = "red"
-icon = "power-off"
+icon = "question-circle"
 Tags = ["trucs et astuces","linux", "mediawiki"]
 description = "Faire maigrir une debian"
 +++

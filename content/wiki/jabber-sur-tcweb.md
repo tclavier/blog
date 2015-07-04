@@ -2,8 +2,8 @@
 date = "2011-09-07"
 draft = false
 title = "Jabber sur TcWeb"
-color = "blue"
-icon = "connectdevelop"
+color = "yellow"
+icon = "at"
 Tags = ["documentation tcweb", "mediawiki"]
 description = "Jabber sur TcWeb"
 +++

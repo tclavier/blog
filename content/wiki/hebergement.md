@@ -2,8 +2,8 @@
 date = "2009-09-14"
 draft = false
 title = "Hébergement"
-color = "red"
-icon = "star-half-empty"
+color = "pink"
+icon = "caret-right"
 Tags = [ "mediawiki"]
 description = "Hébergement"
 +++

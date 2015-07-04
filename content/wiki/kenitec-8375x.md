@@ -2,8 +2,8 @@
 date = "2005-08-21"
 draft = false
 title = "Kenitec 8375X"
-color = "yellow"
-icon = "bell-o"
+color = "cyan"
+icon = "turkish-lira"
 Tags = ["linux", "mediawiki"]
 description = "Kenitec 8375X"
 +++

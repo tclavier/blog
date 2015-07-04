@@ -2,8 +2,8 @@
 date = "2008-06-21"
 draft = false
 title = "Accouchement à domicile"
-color = "orange "
-icon = "copy"
+color = "teal"
+icon = "building"
 Tags = [ "mediawiki"]
 description = "Accouchement à domicile"
 +++

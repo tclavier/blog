@@ -2,8 +2,8 @@
 date = "2009-10-27"
 draft = false
 title = "Bestophe"
-color = "green"
-icon = "strikethrough"
+color = "light-blue"
+icon = "chevron-right"
 Tags = ["inclassable", "mediawiki"]
 description = "Bestophe"
 +++
