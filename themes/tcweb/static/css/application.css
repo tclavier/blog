@@ -1,67 +1,42 @@
+.blog__posts {
+  max-width: 900px;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.blog .mdl-card {
+  min-height: 300px;
+}
+
+.blog .mdl-card a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
 
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace;
   font-size: 1em; 
   background-color: #e0e0e0;
   padding: 1em;
 }
 
-html, body {
-  background: #eeeeee;
+.symbol {
+  margin: auto;
+  font-size: 100px;
 }
 
-.post-preview h1, .post-preview p {
-  margin: 0; }
-
-.post-preview h1 {
-  font-size: 2em;
-}
-
-.post p {
-  text-align: justify;
-}
-
-/* Cross browser transitions */
-/* Clearfix */
-/* Tone */
-/* Wrapper for the content */
-#single .post-symbol {
-  height: 300px; }
-  #single .post-symbol .symbol {
-    margin-top: 60px; }
-  #single .post-symbol .description {
-    margin-top: 30px; }
-#single .post-content {
-  margin-top: 30px; }
-
-#list .post-symbol {
-line-height: 200px; }
-
-/* Single post in list */
-.post-preview {
-  height: 150px;
-  margin: 15px 0;
+.mdl-card__title {
   position: relative;
-  transition: all .5s ease; }
-  .post-preview:hover {
-  background: white; }
-.post-preview .post-symbol {
-  display: inline-block;
-  height: 150px;
-  width: 150px; }
-.post-preview .post-content {
-  position: absolute;
-  left: 190px;
-  top: 15px;
-  display: inline-block;
 }
 
-/* Post symbol */
-.post-symbol {
-  text-align: center;
-  color: white; }
-  .post-symbol .symbol {
-    text-align: center;
-    font-size: 100px; }
-  .post-symbol .description {
-    font-size: 20px; }
+.post-title {
+  display: block;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+

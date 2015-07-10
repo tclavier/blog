@@ -1,51 +1,61 @@
 {{ partial "head.html" . }}
-<body id="list">
-  {{ partial "header.html" . }}
-  <div class="container">
-    <div class="row">
-      <div class="posts col s12 m12 l8 offset-l2">
-        <!-- Iterate over the pages -->
-        {{ $paginator := $.Paginator }}
-        {{range .Paginator.Pages }}
-        <div class="post-preview">
-          <span class="post-symbol {{ .Params.color }}">
-            <i class="symbol fa fa-{{ .Params.icon }}"></i>
-          </span>
+<body class="mdl-color--grey-100">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-          <div class="post-content grey-text text-darken-2">
-            <h1 class="post-title">
-              <a class="grey-text text-darken-2" href="{{ .Site.BaseURL }}{{ .RelPermalink }}">{{ .Title }}</a>
-            </h1>
+  <div class="blog mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded">
+    {{ partial "header.html" . }}
 
-            <span class="post-date">{{ .Date.Format "3 Janvier 2006" }}</span>
-
-            <p>{{ .Description }}</p>
+    <main class="mdl-layout__content">
+      <div class="blog__posts mdl-grid">
+          <!-- Iterate over the pages -->
+          {{ $paginator := $.Paginator }}
+          {{range .Paginator.Pages }}
+          <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50 mdl-color--{{ .Params.color }} mdl-card--expand">
+              <i class="symbol fa fa-{{ .Params.icon }}"></i>
+              <div class="post-title">
+                <h1 class="mdl-card__title-text"><a href="{{ .Site.BaseURL }}{{ .RelPermalink }}">{{ .Title }}</a></h1>
+              </div>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-700 mdl-card--border">
+              {{ .Description }}
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600 mdl-card--border">
+              <i class="material-icons" style="vertical-align:middle">today</i> le {{ .Date.Format "3 Janvier 2006" }}
+              <a href="{{ .Site.BaseURL }}{{ .RelPermalink }}" style="float:right">
+                Lire la suite
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                  <i class="material-icons">arrow_forward</i>
+                </button>
+              </a>
+            </div>
           </div>
-        </div>
-        {{ end }}
+          {{ end }}
+          <nav class="mdl-cell mdl-cell--12-col">
+            {{if .Paginator.HasPrev}}
+            <a href="{{ .Paginator.Prev.URL }}" style="float:left">
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons">arrow_backward</i>
+              </button>
+              Page précédente
+            </a>
+            {{end}}
+            {{if .Paginator.HasNext}}
+            <a href="{{ .Paginator.Next.URL }}" style="float:right">
+              Page suivante
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons">arrow_forward</i>
+              </button>
+            </a>
+            {{end}}
+          </ul>
+        </nav>
       </div>
-    </div>
-    <div class="row">
-      <div class="posts col s12 m12 l8 offset-l2">
-        <ul class="pagination" role="navigation">
-          {{if .Paginator.HasPrev}}
-          <li class="waves-effect"><a class="material-icons" href="{{ .Paginator.Prev.URL }}"><i class="material-icons">chevron_left</i></a></li>
-          {{else}}
-          <li class="disabled"><a class="material-icons" href="#"><i class="material-icons">chevron_left</i></a></li>
-          {{end}}
-          {{ range .Paginator.Pagers }}
-          <li {{ if eq . $paginator }}class="active"{{else}}class="waves-effect"{{ end }}><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-          {{end}}
-          {{if .Paginator.HasNext}}
-          <li class="waves-effect"><a class="material-icons" href="{{ .Paginator.Next.URL }}"><i class="material-icons">chevron_right</i></a></li>
-          {{else}}
-          <li class="disabled"><a class="material-icons" href="#"><i class="material-icons">chevron_right</i></a></li>
-          {{end}}
-        </ul>
-      </div>
-    </div>
-  </div>
+    </main>
 
-  {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
+  </div>
 </body>
 </html>
