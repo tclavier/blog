@@ -6,51 +6,51 @@
 
   <div class="blog mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded">
     {{ partial "header.html" . }}
+    </header>
 
     <main class="mdl-layout__content">
-      <div class="blog__posts mdl-grid">
-          <!-- Iterate over the pages -->
-          {{ $paginator := $.Paginator }}
-          {{range .Paginator.Pages }}
-          <div class="mdl-card mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__title mdl-color-text--grey-50 mdl-color--{{ .Params.color }} mdl-card--expand">
-              <i class="symbol fa fa-{{ .Params.icon }}"></i>
-              <div class="post-title">
-                <h1 class="mdl-card__title-text"><a href="{{ .Site.BaseURL }}{{ .RelPermalink }}">{{ .Title }}</a></h1>
-              </div>
-            </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-700 mdl-card--border">
-              {{ .Description }}
-            </div>
-            <div class="mdl-card__supporting-text mdl-color-text--grey-600 mdl-card--border">
-              <i class="material-icons" style="vertical-align:middle">today</i> le {{ .Date.Format "3 Janvier 2006" }}
-              <a href="{{ .Site.BaseURL }}{{ .RelPermalink }}" style="float:right">
-                Lire la suite
-                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                  <i class="material-icons">arrow_forward</i>
-                </button>
-              </a>
+    <div class="blog__posts mdl-grid">
+        <!-- Iterate over the pages -->
+        {{ $paginator := $.Paginator }}
+        {{range .Paginator.Pages }}
+        <div class="mdl-card mdl-cell mdl-cell--12-col">
+          <div class="mdl-card__title mdl-color-text--grey-50 mdl-color--{{ .Params.color }} mdl-card--expand">
+            <i class="symbol fa fa-{{ .Params.icon }}"></i>
+            <div class="post-title">
+              <h1 class="mdl-card__title-text"><a href="{{ .Site.BaseURL }}{{ .RelPermalink }}">{{ .Title }}</a></h1>
             </div>
           </div>
-          {{ end }}
-          <nav class="mdl-cell mdl-cell--12-col">
-            {{if .Paginator.HasPrev}}
-            <a href="{{ .Paginator.Prev.URL }}" style="float:left">
-              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                <i class="material-icons">arrow_backward</i>
-              </button>
-              Page précédente
-            </a>
-            {{end}}
-            {{if .Paginator.HasNext}}
-            <a href="{{ .Paginator.Next.URL }}" style="float:right">
-              Page suivante
+          <div class="mdl-card__supporting-text mdl-color-text--grey-700 mdl-card--border">
+            {{ .Description }}
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600 mdl-card--border">
+            <i class="material-icons" style="vertical-align:middle">today</i> le {{ .Date.Format "3 Janvier 2006" }}
+            <a href="{{ .Site.BaseURL }}{{ .RelPermalink }}" style="float:right">
+              Lire la suite
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons">arrow_forward</i>
               </button>
             </a>
-            {{end}}
-          </ul>
+          </div>
+        </div>
+        {{ end }}
+        <nav class="mdl-cell mdl-cell--12-col">
+          {{if .Paginator.HasPrev}}
+          <a href="{{ .Paginator.Prev.URL }}" style="float:left">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons">arrow_backward</i>
+            </button>
+            Page précédente
+          </a>
+          {{end}}
+          {{if .Paginator.HasNext}}
+          <a href="{{ .Paginator.Next.URL }}" style="float:right">
+            Page suivante
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons">arrow_forward</i>
+            </button>
+          </a>
+          {{end}}
         </nav>
       </div>
     </main>

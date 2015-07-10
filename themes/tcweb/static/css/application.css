@@ -24,6 +24,19 @@ pre {
   padding: 1em;
 }
 
+#head-symbol {
+  height: 236px;
+}
+
+#head-description {
+  display: block;
+  font-size: 20px;
+}
+
+#tags {
+  margin-bottom: 1em;
+}
+
 .symbol {
   margin: auto;
   font-size: 100px;

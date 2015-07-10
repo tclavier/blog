@@ -1,30 +1,39 @@
 {{ $baseUrl := .Site.BaseURL }}
 {{ partial "head.html" . }}
-<body id="single">
-  {{ partial "header.html" . }}
+<body class="mdl-color--grey-100">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <section class="post-symbol {{ .Params.color }}">
-    <i class="symbol fa fa-{{ .Params.icon }}"></i>
-    <p class="description">{{ .Description }}</p>
-  </section>
+  <div class="blog mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button has-drawer is-upgraded">
+    {{ partial "header.html" . }}
 
-  <div class="container">
-    <div class="row">
-      <div class="posts col l8 m12 s12 offset-l2">
-        <div class="post">
-          <h1>{{ .Title }}</h1>
-          <span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
-          {{ .Content }}
+      <div id="head-symbol" class="mdl-layout__header-row mdl-color--{{ .Params.color }} mdl-color-text--grey-50">
+        <i class="symbol fa fa-{{ .Params.icon }}"></i>
+      </div>
+      <div id="head-description" class="mdl-layout__header-row mdl-color--{{ .Params.color }} mdl-color-text--grey-50 mdl-typography--text-center">
+        {{ .Description }}
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+      <div class="blog__posts mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
+          <div class="post">
+            <h1>{{ .Title }}</h1>
+            Le <span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
+            {{ if .Params.tags }}
+            <div id="tags">
+              {{ range .Params.tags }}
+              <a href="{{ $baseUrl }}/tags/{{ . }} " class="mdl-button mdl-js-button mdl-button--primary"><i class="material-icons" style="vertical-align:middle">label</i> {{ . }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ .Content }}
+          </div>
+
+          {{ template "_internal/disqus.html" . }}
         </div>
-        {{ if .Params.tags }}
-        <div>
-          {{ range .Params.tags }}
-          <a class="waves-effect waves-light btn" href="{{ $baseUrl }}/tags/{{ . }}">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end }}
-
-        {{ template "_internal/disqus.html" . }}
       </div>
     </div>
   </div>

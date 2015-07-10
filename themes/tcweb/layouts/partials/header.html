@@ -1,9 +1,21 @@
 {{ $currentPath := .URLPath.URL }}
 {{ $baseUrl := .Site.BaseURL }}
 
-<header class="mdl-layout__header">
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title">TcWeb</span>
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="{{ $baseUrl }}">all</a>
+    {{ range $key, $element := .Site.Sections }}
+    <a class="mdl-navigation__link" href="{{ $baseUrl }}/{{$key}}"><i class="material-icons" style="vertical-align:middle">folder</i> {{ $key }}</a>
+    {{ end }}
+    {{ range $key, $value := .Site.Taxonomies.tags }}
+    <a class="mdl-navigation__link" href="{{ $baseUrl }}/tags/{{ $key | urlize }}"><i class="material-icons" style="vertical-align:middle">label</i> {{ $key }}</a>
+    {{ end }}
+  </nav>
+</div>
+<header class="mdl-layout__header mdl-layout__header--waterfall">
 
-  <div class="mdl-layout__header-row">
+  <div class="mdl-layout__header-row mdl-color--{{ .Params.color }}-700">
     <span class="mdl-layout-title"> 
       <a href="{{ $baseUrl }}"><img src="{{ $baseUrl }}/images/profile.jpg" height="64" alt="Go home"></a>
     </span>
@@ -15,13 +27,3 @@
       {{ end }}
     </nav>
   </div>
-</header>
-<div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">TcWeb</span>
-  <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="{{ $baseUrl }}">all</a>
-    {{ range $key, $element := .Site.Sections }}
-    <a class="mdl-navigation__link" href="{{ $baseUrl }}/{{$key}}">{{ $key }}</a>
-    {{ end }}
-  </nav>
-</div>

@@ -6,3 +6,7 @@ theme = "tcweb"
 DisqusShortname="blogtcweb"
 
 Paginate = 10
+
+[taxonomies]
+tag = "tags"
+category = "categories"
