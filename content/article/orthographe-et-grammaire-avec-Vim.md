@@ -4,7 +4,7 @@ Tags = ["Vim", "shell"]
 color = "light-blue"
 date = "2015-07-12T15:05:33+02:00"
 icon = "terminal"
-title = "Correction orthographique et grammaticale avec Vim"
+title = "Orthographique et grammaire avec Vim"
 draft = false
 +++
 
@@ -43,4 +43,4 @@ Téléchargez le jar de LanguageTool sur leur site, décompressez le dans un ré
 
 Lancer la correction avec la commande `:LanguageToolCheck` celà va ouvrir un second buffer avec la liste des corrections possible. L'ensemble des erreurs apparaissant surligné en rouge dans le buffer principale. 
 
-Pour passer dans le buffer de correction j'utilise la commande `CTRL+w w`, depuis ce buffer listant toutes les erreurs, il suffit de tapper `entrée` sur une erreur pour basculer dessus dans le buffer d'édition.
+Pour passer dans le buffer de correction j'utilise la commande `CTRL+w w`, depuis ce buffer listant toutes les erreurs, il suffit de taper `entrée` sur une erreur pour basculer dessus dans le buffer d'édition.
