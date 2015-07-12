@@ -4,7 +4,7 @@ Tags = ["Vim", "shell"]
 color = "light-blue"
 date = "2015-07-12T15:05:33+02:00"
 icon = "terminal"
-title = "Orthographique et grammaire avec Vim"
+title = "Orthographe et grammaire avec Vim"
 draft = false
 +++
 
