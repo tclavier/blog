@@ -5,7 +5,7 @@ color = "light-blue"
 date = "2015-07-12T15:05:33+02:00"
 icon = "terminal"
 title = "Correction orthographique et grammaticale avec Vim"
-draft = true
+draft = false
 +++
 
 Point de salut en dehors de Vim ... Enfin si mais ça reste quand même l'éditeur
