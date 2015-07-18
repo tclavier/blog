@@ -1,7 +1,7 @@
 {{ $baseUrl := .Site.BaseURL }}
 {{ partial "head.html" . }}
 <body class="mdl-color--grey-100">
-  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.{{ .Params.color }}-{{ .Params.color }}.min.css">
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
