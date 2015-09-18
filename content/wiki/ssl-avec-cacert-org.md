@@ -11,21 +11,21 @@ description = "SSL avec CAcert.org"
 Comme le titre le laisse pensé, j'utilise CAcert.org comme tiers de
 confiance. Pour Installer de nouveaux certificats, voici ce que je fais.
 
--   génération de la paire de clés :
+génération de la paire de clés :
 
     HOST=tcweb.org
     openssl genrsa -out $HOST.key 2048
     openssl req -new -key $HOST.key -out $HOST.csr
 
--   aller sur le site de CAcert.org y copier coller le contenu du
-    fichier .csr, le résultat sera enregistré dans un fichier .cert
--   pour certaines applications il faut concaténer la clé et le
-    certificat dans un même fichier pem
+aller sur le site de CAcert.org y copier coller le contenu du
+fichier .csr, le résultat sera enregistré dans un fichier .cert
+pour certaines applications il faut concaténer la clé et le
+certificat dans un même fichier pem
 
     cat $HOST.key $HOST.cert > $HOST.pem
 
--   copier le certificat racine de CACcert.org sur votre disque. Sous
-    debian installer le paquet ca-certificates
+copier le certificat racine de CACcert.org sur votre disque. Sous
+debian installer le paquet ca-certificates
 
     apt-get install ca-certificates
 
