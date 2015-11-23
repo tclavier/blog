@@ -2,16 +2,15 @@
 Categories = ["Coaching"]
 Description = "Pro action café"
 Tags = ["Intelligence collective", "Groupe"]
-color = "teal"
-date = "2015-10-16T17:31:04+02:00"
+color = "green"
+date = "2015-11-22T17:31:04+02:00"
 icon = "coffee"
 title = "Pro action café"
-draft = true
 +++
 
 # Coaché par le groupe
 
-Dans la catégorie outils de l'intelligence collective, J'ai récemment découvert le "pro action café". Une idée belge TODO que j'ai très envie de partager.
+Dans la catégorie outils de l'intelligence collective, J'ai récemment découvert le "pro action café". Une idée que l'on trouve en 2008 dans un article de Rainer v. Leoprechting et Ria Baeck que j'ai très envie de partager.
 
 Imaginez une entreprise avec de nombreux projets, dans laquelle on aimerait profiter de l'intelligence du groupe pour relancer, voir débloquer ses projets. Dans le pro action café, nous allons utiliser le groupe comme un coach personnel pour chaque porteur de projet. Parce qu'il est évident que ces porteurs de projets ont toutes les compétences pour mener à bien leur projet.
 
@@ -25,19 +24,19 @@ Il est important de souligner qu'interroger nécessite une grande rigueur pour n
 Une fois l'habitude prise, faire trouver des solutions sous forme de question deviens un véritable jeu : Comment fera tu pour gérer ce détail ? Et si il arrive ça ? 
 
 ## Un exemple pas à pas
-Prenons par exemple le cas suivant : 2 tables de 4 et une table de 5, donc 3 tables au total.
+Prenons par exemple le cas suivant : 3 tables de 4.
 * Durant les 20 première minutes, chaque sous groupe posent les premières questions à nos 3 porteurs de projets.
-* Une fois cette série terminés, les "non" porteurs de projets changent de table.
-* Les porteurs de projets vont, en 5 minutes, exposer leurs apprentissages et répondre à quelques questions.
+* Une fois cette série terminés, les "non" porteurs de projets se mélangent et changent de table.
+* Les porteurs de projets vont, en 5 minutes, exposer leurs apprentissages et répondre à quelques questions d'éclaircissement.
 * Puis on repars pour un nouveau cycle avec 20 minutes pour que les sous groupes posent la seconde série de question.
 * Une fois cette série terminés, les "non" porteurs de projets changent à nouveau de table.
 * Les porteurs de projets vont, en 5 minutes, exposer leurs apprentissages à leurs nouveaux interlocuteurs.
 * Et l'on abordera alors le dernier cycle avec la dernière série de question, toujours en 20 minutes.
-* À la fin de ce cycle, on peut soit terminer avec une restitution en petits groupes, comme pour les cycles précédents ou proposer une restitution en grand groupe avec chaque porteur de projet qui présentera l'ensemble de ses apprentissages à tout le monde.
+* À la fin de ce cycle, on peut soit terminer avec une restitution en petits groupes comme pour les cycles précédents ou proposer une restitution en grand groupe avec chaque porteur de projet qui présentera l'ensemble de ses apprentissages à tout le monde.
 
 ## Quel est ta quête ?
 
-Dans la version originale, la première série de question consiste à aider le porteur de projet à exposer les tenants et les aboutissants de son projet. La première question est "Quelle est ta quête ?", que l'on peut facilement compléter par des questions comme 
+La première série de question consiste à aider le porteur de projet à exposer les tenants et les aboutissants de son projet. La première question est "Quelle est ta quête ?", que l'on peut facilement compléter par des questions comme 
 
 * Qui seront tes utilisateurs ?
 * Pourquoi ont ils besoins de toi ? 
@@ -53,14 +52,16 @@ Ou pour reprendre les questions du "Lean Canvas"
 * Comment pourras tu observer la réussite de ton projet ? 
 * Quelle solution apporte tu ? 
 * Quelle est ta proposition de valeur unique ?
+* As tu un avantage particulier sur tous tes concurrents ?
 
 ## Il te manque quoi pour avancer ?
 
-La seconde question aborde la mise en œuvre du projet. Lister en 20 minutes l'ensemble des moyens nécessaires permettra sans être exhaustif de dérisquer le projet rapidement. Avec des questions très orienté solutions comme : 
+La seconde question aborde la mise en œuvre du projet, elle s'appuie sur les apprentissages de la question précédente. Lister en 20 minutes une partie des moyens nécessaires permettra de "dérisquer" le projet rapidement. Avec des questions très orienté solutions comme : 
 
-* Parmi tous les éléments récoltés précédemment, quelles sont ceux qui te semble le plus facile à vérifier ? Ceux qui sont le plus onéreux ? Ceux qui sont le plus difficile à vérifier ? 
+* Parmi tous les éléments récoltés précédemment, quels sont ceux qui sont des hypothèses ?
+* Parmi es hypothèses, quelles sont celles qui te semble le plus facile à vérifier ? Celles qui sont le plus onéreux ? Celles qui sont le plus difficile à vérifier ? 
 * Pour vérifier les hypothèses les plus risqués de ton business modèle, as tu besoins de matériel, de ressources ?
-- Comment vas tu faire pour vérifier X ou Y ? 
+- Comment vas tu faire pour vérifier tel ou tel hypothèse ? 
 
 Durant cette étape, il est possible d'énumérer un grand nombre de besoins humains, techniques ou financiers indispensable à la réussite du projet. Une fois récoltés, il sera intéressant de les trier du plus difficile au plus facile, pour voir au plus vite si l'une de ces contraintes matériel est impossible à réalisé. Au quel cas, il faudra probablement chercher des solutions de contournement ou changer le projet.
 
@@ -80,4 +81,4 @@ En bref, quel sont les prochaines histoires utilisateurs et comment faire pour l
 
 # Conclusion
 
-Avec cet exercice simple, il est possible de donner un véritable coup de fouée à de très nombreux projets en moins d'une heure et demis. Aucun travail ne sera réalisé contrairement à un "hackathon" ou un forum ouvert, mais tous les porteurs de projets vont repartir avec les idées beaucoup plus claire sur quoi et peut-être même comment faire durant les prochaines semaines. En fonction du groupe et des projets il pourrait être nécessaire d'organiser un autre événement pour mesurer et communiquer sur l'avancement.
+Avec cet exercice simple, il est possible de donner un véritable coup de fouée à de très nombreux projets en moins d'une heure et demis. Aucun travail technique ne sera réalisé contrairement à un "hackathon" ou un forum ouvert, mais tous les porteurs de projets vont repartir avec les idées beaucoup plus claire sur quoi et peut-être même comment faire durant les prochaines semaines. En fonction du groupe et des projets, il pourrait être nécessaire d'organiser un autre événement pour mesurer et communiquer sur l'avancement.
