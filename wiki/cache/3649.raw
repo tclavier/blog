@@ -1,5 +1,0 @@
-=== tcpdump ===
-capturer du trafic avec tcpdump pour l'analyser dans wireshark anciennement ethereal :
- tcpdump -s 0 -w /tmp/fichier.dump
-
-reste à ouvrir /tmp/fichier.dump dans wireshark

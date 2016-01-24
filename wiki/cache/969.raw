@@ -1,8 +1,0 @@
-[[Catégorie:logiciels linux]][[Catégorie:logiciels windows]]
-
-Corkscrew est un petit outils qui permet à ssh de [[Traverser un proxy|passer à travers un proxy https]].
-Utilisable aussi bien sous windows (avec [[Cygwin]]) que sous linux ou BSD. 
-
-Certains clients ssh comme [[PuTTY]] intègre cette fontionalité.
-
-le site : http://www.agroman.net/corkscrew/

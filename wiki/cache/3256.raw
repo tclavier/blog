@@ -1,8 +1,0 @@
-[[Image:Cacert.png|thumb]]
-Ce tutorial est uniquement pour installer le certificat root de [http://www.cacert.org CAcert.org] dans les logiciels [[Mozilla]] (Thunderbird, Firefox, Icedove, Iceweasel)
-
-# dans les propriétés de votre logiciel, cherchez l'option "Afficher les certificats" <br> [[Image:Icedove préférences.png|180px|Thunderbird / Icedove]] [[Image:Iceweasel préférences.png|180px|Firefox / Iceweasel]] 
-# Après avoir cliqué sur "Afficher les certificats" dans l'onglet "Autorités" rechercher le certificat de CACert.org il doit être rangé à "Root CA / CA Cert signing authority" <br> [[Image:Iceweasel certificats.png|180px|Recherche du certificat root]]
-# Cliquez sur "Modifier" et cocher les cases "Ce certificat peut ..." <br> [[Image:Iceweasel root ca.png|180px|Modification]]
-
-[[Catégorie:Documentation TcWeb]]
