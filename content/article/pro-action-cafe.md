@@ -25,6 +25,7 @@ Une fois l'habitude prise, faire trouver des solutions sous forme de question de
 
 ## Un exemple pas à pas
 Prenons par exemple le cas suivant : 3 tables de 4.
+
 * Durant les 20 première minutes, chaque sous groupe posent les premières questions à nos 3 porteurs de projets.
 * Une fois cette série terminés, les "non" porteurs de projets se mélangent et changent de table.
 * Les porteurs de projets vont, en 5 minutes, exposer leurs apprentissages et répondre à quelques questions d'éclaircissement.
@@ -70,12 +71,13 @@ Durant cette étape, il est possible d'énumérer un grand nombre de besoins hum
 Dans une logique très "agile", petits pas, ou itérative, libre à chacun de choisir le nom qu'il préfère, il est important de découper le travail en tout petit bouts et d'identifier avec précision la prochaine étape. 
 
 Durant cette série de questions, le groupe pourra aborder des questions relatives : 
-  * au planning des jours à venir, 
-  * au découpage du projet, 
-  * à la coordination des différents acteurs qu'il faudra mettre en place, 
-  * à la charge de travail des prochains jours pour le ou les porteurs de projets,
-  * à la responsabilité des estimations (qui à estimé ? Qui va le réaliser ?)
-  * quels seront les éléments observable qui te permettrons de dire que cette étape sera fini ? Et celle d'après ? 
+
+* au planning des jours à venir, 
+* au découpage du projet, 
+* à la coordination des différents acteurs qu'il faudra mettre en place, 
+* à la charge de travail des prochains jours pour le ou les porteurs de projets,
+* à la responsabilité des estimations (qui à estimé ? Qui va le réaliser ?)
+* quels seront les éléments observable qui te permettrons de dire que cette étape sera fini ? Et celle d'après ? 
 
 En bref, quel sont les prochaines histoires utilisateurs et comment faire pour les valider ?
 
