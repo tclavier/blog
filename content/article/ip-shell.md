@@ -3,7 +3,8 @@ Categories = ["Development", "Shell"]
 Description = ""
 Tags = ["Development", "shell"]
 color = ""
-date = "2017-02-27:41:00+01:00"
+date = "2017-02-27T12:41:00+02:00"
+
 icon = ""
 title = "IP et shell"
 
